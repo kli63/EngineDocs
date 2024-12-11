@@ -25,32 +25,6 @@
 var NAVTREE =
 [
   [ "CSPC411 - Building Game Engines Final Project", "index.html", [
-    [ "Python API Reference", "python_bindings.html", [
-      [ "Overview", "python_bindings.html#overview", null ],
-      [ "Core Classes", "python_bindings.html#core_classes", [
-        [ "Vec2", "python_bindings.html#vec2_class", null ],
-        [ "GameObject", "python_bindings.html#gameobject_class", null ],
-        [ "Component", "python_bindings.html#component_class", null ]
-      ] ],
-      [ "Component Types", "python_bindings.html#components", [
-        [ "Transform", "python_bindings.html#transform_component", null ],
-        [ "Collide", "python_bindings.html#collide_component", null ],
-        [ "Texture", "python_bindings.html#texture_component", null ],
-        [ "Animation", "python_bindings.html#animation_component", null ]
-      ] ],
-      [ "Factory Methods", "python_bindings.html#factory", [
-        [ "GameObjectFactory", "python_bindings.html#gameobject_factory", null ]
-      ] ],
-      [ "Script Types", "python_bindings.html#scripts", [
-        [ "PlayerInputScript", "python_bindings.html#player_input_script", null ]
-      ] ],
-      [ "Managers", "python_bindings.html#managers", [
-        [ "SceneManager", "python_bindings.html#scene_manager", null ]
-      ] ],
-      [ "Game Application", "python_bindings.html#application", [
-        [ "GameApplication", "python_bindings.html#game_app", null ]
-      ] ]
-    ] ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -84,8 +58,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "animation_8cpp.html",
-"classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298",
-"structVec2.html#a76080feed7005893ecc634f903cfbae0"
+"classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

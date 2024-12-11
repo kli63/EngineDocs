@@ -11,6 +11,5 @@ var searchData=
   ['projectile_5fscript_2eh_189',['projectile_script.h',['../projectile__script_8h.html',1,'']]],
   ['projectilescript_190',['ProjectileScript',['../classProjectileScript.html',1,'ProjectileScript'],['../classProjectileScript.html#a8cdf784ecb3f628418413f87be9d5e9e',1,'ProjectileScript::ProjectileScript()']]],
   ['pybind11_5fmodule_191',['PYBIND11_MODULE',['../engine__bindings_8cpp.html#a75376bcdc238f7354b86e6216d82bf1d',1,'engine_bindings.cpp']]],
-  ['python_20api_20reference_192',['Python API Reference',['../python_bindings.html',1,'']]],
-  ['python_5fapi_2eh_193',['python_api.h',['../python__api_8h.html',1,'']]]
+  ['python_5fapi_2eh_192',['python_api.h',['../python__api_8h.html',1,'']]]
 ];
