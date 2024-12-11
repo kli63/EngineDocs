@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CSPC411 - Building Game Engines Final Project: Engine/src/scripts/player_input_script.cpp Source File</title>
+<title>The Table Engine: Engine/src/scripts/player_input_script.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CSPC411 - Building Game Engines Final Project
+   <div id="projectname">The Table Engine
    </div>
   </td>
  </tr>
@@ -163,17 +163,17 @@ $(document).ready(function(){initNavTree('player__input__script_8cpp_source.html
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        animations-&gt;setCurrentAnimation(<span class="keyword">static_cast&lt;</span><span class="keywordtype">size_t</span><span class="keyword">&gt;</span>(<a class="code" href="classPlayerInputScript.html#a3805759cf55f29918d6c128dc778b74d">m_currentState</a>));</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// clamp positions to level</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> levelWidth = 640;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> levelHeight = 640;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span> (position.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &lt; -levelWidth - 20)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        position.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = -levelWidth - 20;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (position.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &gt; levelWidth - 60)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        position.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = levelWidth - 60;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (position.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &lt; -levelHeight - 30)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        position.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = -levelHeight - 30;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">if</span> (position.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &gt; levelHeight - 90)</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        position.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = levelHeight - 90;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// // clamp positions to level</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// int levelWidth = 640;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// int levelHeight = 640;</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// if (position.x &lt; -levelWidth - 20)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">//     position.x = -levelWidth - 20;</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// if (position.x &gt; levelWidth - 60)</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">//     position.x = levelWidth - 60;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// if (position.y &lt; -levelHeight - 30)</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">//     position.y = -levelHeight - 30;</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="comment">// if (position.y &gt; levelHeight - 90)</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">//     position.y = levelHeight - 90;</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    texture-&gt;setFlipHorizontal(dx &lt; 0);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>

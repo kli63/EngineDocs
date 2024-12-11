@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spacepressed_564',['spacePressed',['../classInput.html#a7f6cd5e1d49ff4439a0ed205ee66a127',1,'Input']]]
+  ['rightpressed_566',['rightPressed',['../classInput.html#a83f8a03e2a5054ac6d1b0029f89e9c70',1,'Input']]]
 ];

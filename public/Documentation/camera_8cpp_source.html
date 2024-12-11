@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CSPC411 - Building Game Engines Final Project: Engine/src/components/camera.cpp Source File</title>
+<title>The Table Engine: Engine/src/components/camera.cpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CSPC411 - Building Game Engines Final Project
+   <div id="projectname">The Table Engine
    </div>
   </td>
  </tr>
@@ -103,47 +103,62 @@ $(document).ready(function(){initNavTree('camera_8cpp_source.html',''); initResi
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCamera.html#a42cda7239981a5618660d04bd5893556">   17</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCamera.html#a42cda7239981a5618660d04bd5893556">Camera::update</a>() {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> health = -1;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">auto</span> player = <a class="code" href="classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc">SceneManager::getInstance</a>().<a class="code" href="classSceneManager.html#a2e764dc10df76c9c5df936448657578f">getSceneTree</a>()-&gt;<a class="code" href="classSceneTree.html#ae5dab94cdd041091c0ac1bcc9995ef1b">findGameObjectsByTag</a>(<span class="stringliteral">&quot;Player&quot;</span>)[0];</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (player == <span class="keyword">nullptr</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> playerHealth = player-&gt;getComponent&lt;<a class="code" href="classHealth.html">Health</a>&gt;()-&gt;getHealth();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">bool</span> shakeCamera = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span> (playerHealth != health) {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        shakeCamera = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        health = playerHealth;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="structVec2.html">Vec2</a> playerPosition = player-&gt;getComponent&lt;<a class="code" href="classTransform.html">Transform</a>&gt;()-&gt;<a class="code" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">getWorldPosition</a>();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a> = playerPosition;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (shakeCamera) {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> += rand() % 10 - 5;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> += rand() % 10 - 5;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &lt; -320)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = -320;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &gt; 320)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = 320;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &lt; -400)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = -400;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &gt; 400)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = 400;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">   47</a></span>&#160;<a class="code" href="structVec2.html">Vec2</a> <a class="code" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">Camera::getWorldPosition</a>() {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">   51</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">Camera::setWorldPosition</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y) {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a> = <a class="code" href="structVec2.html">Vec2</a>(x, y);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// auto sceneTree = SceneManager::getInstance().getSceneTree();</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">auto</span> player = <a class="code" href="classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc">SceneManager::getInstance</a>().<a class="code" href="classSceneManager.html#a2e764dc10df76c9c5df936448657578f">getSceneTree</a>()-&gt;<a class="code" href="classSceneTree.html#ae5dab94cdd041091c0ac1bcc9995ef1b">findGameObjectsByTag</a>(<span class="stringliteral">&quot;Player&quot;</span>)[0];</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span> (player == <span class="keyword">nullptr</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> playerHealth = player-&gt;getComponent&lt;<a class="code" href="classHealth.html">Health</a>&gt;()-&gt;getHealth();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">bool</span> shakeCamera = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span> (playerHealth != health) {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        shakeCamera = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        health = playerHealth;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="structVec2.html">Vec2</a> playerPosition = player-&gt;getComponent&lt;<a class="code" href="classTransform.html">Transform</a>&gt;()-&gt;<a class="code" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">getWorldPosition</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a> = playerPosition;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (shakeCamera) {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> += rand() % 10 - 5;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> += rand() % 10 - 5;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc">SceneManager::getInstance</a>().isDemo)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &lt; -320)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = -320;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &gt; 320)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = 320;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &lt; -400)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = -400;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &gt; 400)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = 400;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &lt; 320)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = 320;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> &gt; 480)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#adf8ee322d4b4bcc04146762c018d731f">x</a> = 480;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &lt; 272)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = 272;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> &gt; 560)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>.<a class="code" href="structVec2.html#a30543787e62f6d915543cf1dfb04c094">y</a> = 560;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">   62</a></span>&#160;<a class="code" href="structVec2.html">Vec2</a> <a class="code" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">Camera::getWorldPosition</a>() {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">   66</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">Camera::setWorldPosition</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a> = <a class="code" href="structVec2.html">Vec2</a>(x, y);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 <div class="ttc" id="acamera_8h_html"><div class="ttname"><a href="camera_8h.html">camera.h</a></div></div>
 <div class="ttc" id="aclassCamera_html_a01f94c3543f56ede7af49dc778f19331"><div class="ttname"><a href="classCamera.html#a01f94c3543f56ede7af49dc778f19331">Camera::Camera</a></div><div class="ttdeci">Camera()</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00009">camera.cpp:9</a></div></div>
 <div class="ttc" id="aclassCamera_html_a42cda7239981a5618660d04bd5893556"><div class="ttname"><a href="classCamera.html#a42cda7239981a5618660d04bd5893556">Camera::update</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00017">camera.cpp:17</a></div></div>
 <div class="ttc" id="aclassCamera_html_a75ead862747f830f51334399609bdcde"><div class="ttname"><a href="classCamera.html#a75ead862747f830f51334399609bdcde">Camera::m_worldPosition</a></div><div class="ttdeci">Vec2 m_worldPosition</div><div class="ttdoc">Stores the world position of the camera.</div><div class="ttdef"><b>Definition:</b> <a href="camera_8h_source.html#l00045">camera.h:45</a></div></div>
-<div class="ttc" id="aclassCamera_html_a9e20f3c0b90ded30aac4e808560a3e56"><div class="ttname"><a href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">Camera::getWorldPosition</a></div><div class="ttdeci">Vec2 getWorldPosition()</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00047">camera.cpp:47</a></div></div>
-<div class="ttc" id="aclassCamera_html_accf887aa50cd0478101e6294b64c5e37"><div class="ttname"><a href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">Camera::setWorldPosition</a></div><div class="ttdeci">void setWorldPosition(float x, float y)</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00051">camera.cpp:51</a></div></div>
+<div class="ttc" id="aclassCamera_html_a9e20f3c0b90ded30aac4e808560a3e56"><div class="ttname"><a href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">Camera::getWorldPosition</a></div><div class="ttdeci">Vec2 getWorldPosition()</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00062">camera.cpp:62</a></div></div>
+<div class="ttc" id="aclassCamera_html_accf887aa50cd0478101e6294b64c5e37"><div class="ttname"><a href="classCamera.html#accf887aa50cd0478101e6294b64c5e37">Camera::setWorldPosition</a></div><div class="ttdeci">void setWorldPosition(float x, float y)</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00066">camera.cpp:66</a></div></div>
 <div class="ttc" id="aclassCamera_html_ad1897942d0ccf91052386388a497349f"><div class="ttname"><a href="classCamera.html#ad1897942d0ccf91052386388a497349f">Camera::~Camera</a></div><div class="ttdeci">~Camera()</div><div class="ttdef"><b>Definition:</b> <a href="camera_8cpp_source.html#l00013">camera.cpp:13</a></div></div>
 <div class="ttc" id="aclassHealth_html"><div class="ttname"><a href="classHealth.html">Health</a></div><div class="ttdoc">A component for managing health of game objects.</div><div class="ttdef"><b>Definition:</b> <a href="health_8h_source.html#l00022">health.h:22</a></div></div>
 <div class="ttc" id="aclassSceneManager_html_a05b9c51f731a9da497ad1c3013eeaacc"><div class="ttname"><a href="classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc">SceneManager::getInstance</a></div><div class="ttdeci">static SceneManager &amp; getInstance()</div><div class="ttdoc">Retrieves the singleton instance of SceneManager.</div><div class="ttdef"><b>Definition:</b> <a href="scenemanager_8cpp_source.html#l00015">scenemanager.cpp:15</a></div></div>

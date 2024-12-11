@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['leftpressed_494',['leftPressed',['../classInput.html#a84b58cb4ac6bb5954d9aecf11d445763',1,'Input']]]
+  ['isdemo_496',['isDemo',['../classSceneManager.html#a7ce7f1f540240907d7b34b59fad65f57',1,'SceneManager']]]
 ];

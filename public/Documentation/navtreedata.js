@@ -24,10 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "CSPC411 - Building Game Engines Final Project", "index.html", [
-    [ "CPSC 411 Game Engine", "index.html", [
-      [ "Documentation Sections", "index.html#navigation", null ]
-    ] ],
+  [ "The Table Engine", "index.html", [
+    [ "Documentation Sections", "index.html#navigation", null ],
     [ "Engine Python Bindings", "Game.html", [
       [ "Introduction", "Game.html#intro_sec", null ],
       [ "Setup and Installation", "Game.html#setup_sec", [

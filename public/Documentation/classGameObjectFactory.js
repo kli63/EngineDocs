@@ -9,6 +9,6 @@ var classGameObjectFactory =
     [ "createPlayerTest", "classGameObjectFactory.html#adbb7e93b1ad69bfd587ccefffe6d1905", null ],
     [ "createTableCustom", "classGameObjectFactory.html#a6846b60218e219c685da7af139adf640", null ],
     [ "createTile1", "classGameObjectFactory.html#aa8558ad739da9e71443974dde669fc72", null ],
-    [ "createTileCustom", "classGameObjectFactory.html#a5d949c5e8a456330a5eab488dc6d9f09", null ],
+    [ "createTileCustom", "classGameObjectFactory.html#a9e16bea3dd6a4bf906fe952878665f4e", null ],
     [ "createWallCustom", "classGameObjectFactory.html#ad9750c72545f55be7560a2ae926da065", null ]
 ];

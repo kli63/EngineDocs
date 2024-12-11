@@ -19,6 +19,7 @@ var classSceneManager =
     [ "render", "classSceneManager.html#a33896fec4566d8eb3dafdb01a5bd991c", null ],
     [ "setRenderer", "classSceneManager.html#af2a7dd0407e9d34f9e8d87537140da9e", null ],
     [ "update", "classSceneManager.html#aa1aca67532fca8ae38c1ef8b2a6eb637", null ],
+    [ "isDemo", "classSceneManager.html#a7ce7f1f540240907d7b34b59fad65f57", null ],
     [ "m_aliveObjects", "classSceneManager.html#adb501d14995a1574e0e84651c6aae29e", null ],
     [ "m_camera", "classSceneManager.html#ab94c705cc43692e727abdd410e0ba142", null ],
     [ "m_currentSceneIndex", "classSceneManager.html#a758480bc861a13c4639a47910291d8d7", null ],
