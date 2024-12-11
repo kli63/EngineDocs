@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "CSPC411 - building Game Engines Final Project", "index.html", [
+  [ "CSPC411 - Building Game Engines Final Project", "index.html", [
     [ "Python API Reference", "python_bindings.html", [
       [ "Overview", "python_bindings.html#overview", null ],
       [ "Core Classes", "python_bindings.html#core_classes", [
