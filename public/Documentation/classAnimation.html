@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('classAnimation.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle animation of game objects. Derived from <a class="el" href="classTexture.html">Texture</a>.  
+<p><a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle animation of game objects. Derived from <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a>.  
  <a href="classAnimation.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="animation_8h_source.html">animation.h</a>&gt;</code></p>
@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('classAnimation.html',''); initResizabl
 <div class="center"><img src="classAnimation__inherit__graph.png" border="0" usemap="#aAnimation_inherit__map" alt="Inheritance graph"/></div>
 <map name="aAnimation_inherit__map" id="aAnimation_inherit__map">
 <area shape="rect" title="Component to handle animation of game objects. Derived from Texture." alt="" coords="5,637,213,1023"/>
-<area shape="rect" href="classTexture.html" title=" " alt="" coords="11,277,208,589"/>
+<area shape="rect" href="classTexture.html" title="Component for managing textures in the game engine." alt="" coords="11,277,208,589"/>
 <area shape="rect" href="classComponent.html" title="Base class for all game components, providing basic component functionalities." alt="" coords="43,5,176,229"/>
 </map>
 </div>
@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('classAnimation.html',''); initResizabl
 <div class="center"><img src="classAnimation__coll__graph.png" border="0" usemap="#aAnimation_coll__map" alt="Collaboration graph"/></div>
 <map name="aAnimation_coll__map" id="aAnimation_coll__map">
 <area shape="rect" title="Component to handle animation of game objects. Derived from Texture." alt="" coords="5,1029,213,1415"/>
-<area shape="rect" href="classTexture.html" title=" " alt="" coords="11,668,208,980"/>
+<area shape="rect" href="classTexture.html" title="Component for managing textures in the game engine." alt="" coords="11,668,208,980"/>
 <area shape="rect" href="classComponent.html" title="Base class for all game components, providing basic component functionalities." alt="" coords="43,395,176,604"/>
 <area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="143,5,289,317"/>
 <area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="239,380,393,619"/>
@@ -170,7 +170,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6c275e3f186675ff6ed73ccf970e552f inherit pub_methods_classTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classTexture.html#a6c275e3f186675ff6ed73ccf970e552f">More...</a><br /></td></tr>
 <tr class="separator:a6c275e3f186675ff6ed73ccf970e552f inherit pub_methods_classTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaf99f9c545fbd78edd778e26ea6f6d7 inherit pub_methods_classTexture"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTexture.html#adaf99f9c545fbd78edd778e26ea6f6d7">Texture</a> (SDL_Texture *texture)</td></tr>
-<tr class="memdesc:adaf99f9c545fbd78edd778e26ea6f6d7 inherit pub_methods_classTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classTexture.html">Texture</a> with an associated SDL_Texture.  <a href="classTexture.html#adaf99f9c545fbd78edd778e26ea6f6d7">More...</a><br /></td></tr>
+<tr class="memdesc:adaf99f9c545fbd78edd778e26ea6f6d7 inherit pub_methods_classTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a> with an associated SDL_Texture.  <a href="classTexture.html#adaf99f9c545fbd78edd778e26ea6f6d7">More...</a><br /></td></tr>
 <tr class="separator:adaf99f9c545fbd78edd778e26ea6f6d7 inherit pub_methods_classTexture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a1ae0043a4b318a60df3b02ef2d3f6 inherit pub_methods_classTexture"><td class="memItemLeft" align="right" valign="top">SDL_Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTexture.html#a77a1ae0043a4b318a60df3b02ef2d3f6">getTexture</a> ()</td></tr>
 <tr class="memdesc:a77a1ae0043a4b318a60df3b02ef2d3f6 inherit pub_methods_classTexture"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current texture.  <a href="classTexture.html#a77a1ae0043a4b318a60df3b02ef2d3f6">More...</a><br /></td></tr>
@@ -282,8 +282,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a4f353aceb523c657566ca5ff085ce7b6 inherit pro_attribs_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle animation of game objects. Derived from <a class="el" href="classTexture.html">Texture</a>. </p>
-<p><a class="el" href="classAnimation.html" title="Component to handle animation of game objects. Derived from Texture.">Animation</a> extends the <a class="el" href="classTexture.html">Texture</a> class to provide functionalities for sprite animations. It allows for setting the number of rows and columns in the sprite sheet, the total animation time, and the current frame of animation. It also provides methods to start, pause, and resume the animation, as well as to set a specific frame of animation. The update method is used to advance the animation frame based on the elapsed time. The render method is inherited from <a class="el" href="classTexture.html">Texture</a> and is used to render the current frame. </p>
+<div class="textblock"><p><a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle animation of game objects. Derived from <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a>. </p>
+<p><a class="el" href="classAnimation.html" title="Component to handle animation of game objects. Derived from Texture.">Animation</a> extends the <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a> class to provide functionalities for sprite animations. It allows for setting the number of rows and columns in the sprite sheet, the total animation time, and the current frame of animation. It also provides methods to start, pause, and resume the animation, as well as to set a specific frame of animation. The update method is used to advance the animation frame based on the elapsed time. The render method is inherited from <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a> and is used to render the current frame. </p>
 
 <p class="definition">Definition at line <a class="el" href="animation_8h_source.html#l00021">21</a> of file <a class="el" href="animation_8h_source.html">animation.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
