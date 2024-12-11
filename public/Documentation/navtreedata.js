@@ -25,6 +25,51 @@
 var NAVTREE =
 [
   [ "CSPC411 - Building Game Engines Final Project", "index.html", [
+    [ "CPSC 411 Game Engine", "index.html", [
+      [ "Class Hierarchy", "index.html#hierarchy", null ],
+      [ "Documentation Sections", "index.html#navigation", null ]
+    ] ],
+    [ "Engine Python Bindings", "Game.html", [
+      [ "Introduction", "Game.html#intro_sec", null ],
+      [ "Setup and Installation", "Game.html#setup_sec", [
+        [ "Prerequisites", "Game.html#prereq_subsec", null ],
+        [ "Ubuntu/Debian Installation", "Game.html#install_ubuntu", null ],
+        [ "macOS Installation", "Game.html#install_mac", null ]
+      ] ],
+      [ "Architecture", "Game.html#arch_sec", [
+        [ "Layer Structure", "Game.html#arch_layers", null ]
+      ] ],
+      [ "Usage Examples", "Game.html#usage_sec", [
+        [ "Basic Game Setup", "Game.html#basic_example", null ],
+        [ "Custom Component Example", "Game.html#custom_component", null ],
+        [ "Scene Management", "Game.html#scene_example", null ]
+      ] ],
+      [ "Performance Considerations", "Game.html#perform_sec", [
+        [ "Object Lifetime", "Game.html#perf_obj", null ],
+        [ "Data Transfer", "Game.html#perf_data", null ],
+        [ "Threading", "Game.html#perf_thread", null ]
+      ] ],
+      [ "Extension Guide", "Game.html#extend_sec", [
+        [ "Adding Components", "Game.html#extend_comp", null ],
+        [ "Custom Resources", "Game.html#extend_resource", null ]
+      ] ],
+      [ "Best Practices", "Game.html#best_sec", [
+        [ "Code Organization", "Game.html#best_code", null ],
+        [ "Error Handling", "Game.html#best_error", null ],
+        [ "Documentation", "Game.html#best_doc", null ]
+      ] ],
+      [ "Future Development", "Game.html#future_sec", [
+        [ "Planned Features", "Game.html#future_features", null ],
+        [ "Optimization Plans", "Game.html#future_opt", null ]
+      ] ],
+      [ "Contributing", "Game.html#contrib_sec", [
+        [ "Contribution Guidelines", "Game.html#contrib_guide", null ]
+      ] ],
+      [ "References", "Game.html#ref_sec", [
+        [ "Documentation", "Game.html#ref_docs", null ],
+        [ "Design Patterns", "Game.html#ref_design", null ]
+      ] ]
+    ] ],
     [ "Bindings API", "Python.html", [
       [ "Overview", "Python.html#overview", null ],
       [ "Core Classes", "Python.html#core", [
@@ -73,54 +118,6 @@ var NAVTREE =
         [ "Scene Creation", "Python.html#example_scene", null ]
       ] ]
     ] ],
-    [ "Engine Python Bindings", "Game.html", [
-      [ "Introduction", "Game.html#intro_sec", null ],
-      [ "Setup and Installation", "Game.html#setup_sec", [
-        [ "Prerequisites", "Game.html#prereq_subsec", null ],
-        [ "Ubuntu/Debian Installation", "Game.html#install_ubuntu", null ],
-        [ "macOS Installation", "Game.html#install_mac", null ]
-      ] ],
-      [ "Architecture", "Game.html#arch_sec", [
-        [ "Layer Structure", "Game.html#arch_layers", null ]
-      ] ],
-      [ "Usage Examples", "Game.html#usage_sec", [
-        [ "Basic Game Setup", "Game.html#basic_example", null ],
-        [ "Custom Component Example", "Game.html#custom_component", null ],
-        [ "Scene Management", "Game.html#scene_example", null ]
-      ] ],
-      [ "Performance Considerations", "Game.html#perform_sec", [
-        [ "Object Lifetime", "Game.html#perf_obj", null ],
-        [ "Data Transfer", "Game.html#perf_data", null ],
-        [ "Threading", "Game.html#perf_thread", null ]
-      ] ],
-      [ "Extension Guide", "Game.html#extend_sec", [
-        [ "Adding Components", "Game.html#extend_comp", null ],
-        [ "Custom Resources", "Game.html#extend_resource", null ]
-      ] ],
-      [ "Best Practices", "Game.html#best_sec", [
-        [ "Code Organization", "Game.html#best_code", null ],
-        [ "Error Handling", "Game.html#best_error", null ],
-        [ "Documentation", "Game.html#best_doc", null ]
-      ] ],
-      [ "Future Development", "Game.html#future_sec", [
-        [ "Planned Features", "Game.html#future_features", null ],
-        [ "Optimization Plans", "Game.html#future_opt", null ]
-      ] ],
-      [ "Contributing", "Game.html#contrib_sec", [
-        [ "Contribution Guidelines", "Game.html#contrib_guide", null ]
-      ] ],
-      [ "References", "Game.html#ref_sec", [
-        [ "Documentation", "Game.html#ref_docs", null ],
-        [ "Design Patterns", "Game.html#ref_design", null ]
-      ] ]
-    ] ],
-    [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ],
-      [ "Package Functions", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
-      ] ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -148,7 +145,7 @@ var NAVTREEINDEX =
 [
 "Game.html",
 "classProjectileScript.html",
-"ranged__weapon__script_8cpp.html"
+"ranged__weapon__script_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
