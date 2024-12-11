@@ -1,7 +1,14 @@
 var dir_1dfe4a86cee15d5d6902f8c724dcf913 =
 [
+    [ "nlohmann", "dir_e37586caf80f2b550f48d19b8fd7396f.html", "dir_e37586caf80f2b550f48d19b8fd7396f" ],
     [ "animation.h", "animation_8h.html", [
       [ "Animation", "classAnimation.html", "classAnimation" ]
+    ] ],
+    [ "animationsmanager.h", "animationsmanager_8h.html", [
+      [ "AnimationsManager", "classAnimationsManager.html", "classAnimationsManager" ]
+    ] ],
+    [ "camera.h", "camera_8h.html", [
+      [ "Camera", "classCamera.html", "classCamera" ]
     ] ],
     [ "collide.h", "collide_8h.html", [
       [ "Collide", "classCollide.html", "classCollide" ]
@@ -11,6 +18,9 @@ var dir_1dfe4a86cee15d5d6902f8c724dcf913 =
     ] ],
     [ "component.h", "component_8h.html", [
       [ "Component", "classComponent.html", "classComponent" ]
+    ] ],
+    [ "crosshair_script.h", "crosshair__script_8h.html", [
+      [ "CrosshairScript", "classCrosshairScript.html", "classCrosshairScript" ]
     ] ],
     [ "enemy_ai_script.h", "enemy__ai__script_8h.html", [
       [ "EnemyAIScript", "classEnemyAIScript.html", "classEnemyAIScript" ]

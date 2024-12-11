@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('classPlayerInputScript.html',''); init
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPlayerInputScript-members.html">List of all members</a>  </div>
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('classPlayerInputScript.html',''); init
 </div><!--header-->
 <div class="contents">
 
-<p>Handles player interactions and movements based on game input.  
+<p>Handles player interactions, movements, and animation states based on game input.  
  <a href="classPlayerInputScript.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>&gt;</code></p>
@@ -101,8 +102,8 @@ $(document).ready(function(){initNavTree('classPlayerInputScript.html',''); init
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classPlayerInputScript__inherit__graph.png" border="0" usemap="#aPlayerInputScript_inherit__map" alt="Inheritance graph"/></div>
 <map name="aPlayerInputScript_inherit__map" id="aPlayerInputScript_inherit__map">
-<area shape="rect" title="Handles player interactions and movements based on game input." alt="" coords="5,263,176,413"/>
-<area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="35,5,146,215"/>
+<area shape="rect" title="Handles player interactions, movements, and animation states based on game input." alt="" coords="5,263,168,413"/>
+<area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="31,5,142,215"/>
 </map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -112,17 +113,26 @@ $(document).ready(function(){initNavTree('classPlayerInputScript.html',''); init
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classPlayerInputScript__coll__graph.png" border="0" usemap="#aPlayerInputScript_coll__map" alt="Collaboration graph"/></div>
 <map name="aPlayerInputScript_coll__map" id="aPlayerInputScript_coll__map">
-<area shape="rect" title="Handles player interactions and movements based on game input." alt="" coords="5,668,176,819"/>
-<area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="35,402,146,597"/>
-<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="124,5,271,317"/>
-<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="215,380,369,619"/>
+<area shape="rect" title="Handles player interactions, movements, and animation states based on game input." alt="" coords="5,668,168,819"/>
+<area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="31,402,142,597"/>
+<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="120,5,267,317"/>
+<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="211,380,365,619"/>
 </map>
 </div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a60375abceee17408db036108fbb03922"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922">AnimationState</a> { <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922a9e1b5a53af59e916bab3521fadbeb438">IDLE</a> = 0
+, <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922a684c41d564893e69ff3a0e46e833c598">RUN</a> = 1
+, <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922a90288566dcf740a25c4950d94995a2a7">DEATH</a> = 2
+ }</td></tr>
+<tr class="memdesc:a60375abceee17408db036108fbb03922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the possible animation states for the player.  <a href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922">More...</a><br /></td></tr>
+<tr class="separator:a60375abceee17408db036108fbb03922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a834ffdfb6f6620b4161c24d210898e89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#a834ffdfb6f6620b4161c24d210898e89">PlayerInputScript</a> ()</td></tr>
-<tr class="memdesc:a834ffdfb6f6620b4161c24d210898e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="classPlayerInputScript.html" title="Handles player interactions and movements based on game input.">PlayerInputScript</a>. Initializes the script with default values for player speed and fire rate.  <a href="classPlayerInputScript.html#a834ffdfb6f6620b4161c24d210898e89">More...</a><br /></td></tr>
+<tr class="memdesc:a834ffdfb6f6620b4161c24d210898e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="classPlayerInputScript.html" title="Handles player interactions, movements, and animation states based on game input.">PlayerInputScript</a>. Initializes the script with default values for player speed and fire rate.  <a href="classPlayerInputScript.html#a834ffdfb6f6620b4161c24d210898e89">More...</a><br /></td></tr>
 <tr class="separator:a834ffdfb6f6620b4161c24d210898e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d5e6aaae3e9bfe08caca5ff9389a4c4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#a1d5e6aaae3e9bfe08caca5ff9389a4c4">getKeysCollected</a> ()</td></tr>
 <tr class="memdesc:a1d5e6aaae3e9bfe08caca5ff9389a4c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of keys collected by the player.  <a href="classPlayerInputScript.html#a1d5e6aaae3e9bfe08caca5ff9389a4c4">More...</a><br /></td></tr>
@@ -158,9 +168,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae64849a3390c39542346bc779ab3c951"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#ae64849a3390c39542346bc779ab3c951">m_fireRatePerSecond</a> = 5</td></tr>
-<tr class="memdesc:ae64849a3390c39542346bc779ab3c951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fire rate of the player in shots per second.  <a href="classPlayerInputScript.html#ae64849a3390c39542346bc779ab3c951">More...</a><br /></td></tr>
-<tr class="separator:ae64849a3390c39542346bc779ab3c951"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bb65f53a14559a045c732b8c7b580d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#a8bb65f53a14559a045c732b8c7b580d7">m_lastFireTimeInMs</a> = 0</td></tr>
 <tr class="memdesc:a8bb65f53a14559a045c732b8c7b580d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timestamp of the last fire to regulate shooting frequency.  <a href="classPlayerInputScript.html#a8bb65f53a14559a045c732b8c7b580d7">More...</a><br /></td></tr>
 <tr class="separator:a8bb65f53a14559a045c732b8c7b580d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +177,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac01946efd45240ff46227b280c6a8e9c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#ac01946efd45240ff46227b280c6a8e9c">m_keysCollected</a> = 0</td></tr>
 <tr class="memdesc:ac01946efd45240ff46227b280c6a8e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of keys the player has collected.  <a href="classPlayerInputScript.html#ac01946efd45240ff46227b280c6a8e9c">More...</a><br /></td></tr>
 <tr class="separator:ac01946efd45240ff46227b280c6a8e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3805759cf55f29918d6c128dc778b74d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922">AnimationState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerInputScript.html#a3805759cf55f29918d6c128dc778b74d">m_currentState</a> = <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922a9e1b5a53af59e916bab3521fadbeb438">IDLE</a></td></tr>
+<tr class="memdesc:a3805759cf55f29918d6c128dc778b74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current animation state of the player.  <a href="classPlayerInputScript.html#a3805759cf55f29918d6c128dc778b74d">More...</a><br /></td></tr>
+<tr class="separator:a3805759cf55f29918d6c128dc778b74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -182,11 +192,38 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ad68fb96168b3373686f4571d625fbe60 inherit pub_attribs_classScript"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Handles player interactions and movements based on game input. </p>
-<p><a class="el" href="classPlayerInputScript.html" title="Handles player interactions and movements based on game input.">PlayerInputScript</a> controls how the player responds to keyboard inputs, managing actions such as moving at a defined speed and firing at a controlled rate. </p>
+<div class="textblock"><p>Handles player interactions, movements, and animation states based on game input. </p>
+<p><a class="el" href="classPlayerInputScript.html" title="Handles player interactions, movements, and animation states based on game input.">PlayerInputScript</a> controls how the player responds to keyboard inputs, managing actions such as moving at a defined speed and firing at a controlled rate. It also manages the player's animation states based on their current action. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00021">21</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00023">23</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a60375abceee17408db036108fbb03922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60375abceee17408db036108fbb03922">&#9670;&nbsp;</a></span>AnimationState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922">PlayerInputScript::AnimationState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines the possible animation states for the player. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a60375abceee17408db036108fbb03922a9e1b5a53af59e916bab3521fadbeb438"></a>IDLE&#160;</td><td class="fielddoc"><p>Player is standing still. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60375abceee17408db036108fbb03922a684c41d564893e69ff3a0e46e833c598"></a>RUN&#160;</td><td class="fielddoc"><p>Player is moving. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a60375abceee17408db036108fbb03922a90288566dcf740a25c4950d94995a2a7"></a>DEATH&#160;</td><td class="fielddoc"><p>Player has died. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00029">29</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a834ffdfb6f6620b4161c24d210898e89"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a834ffdfb6f6620b4161c24d210898e89">&#9670;&nbsp;</a></span>PlayerInputScript()</h2>
 
@@ -202,9 +239,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor for <a class="el" href="classPlayerInputScript.html" title="Handles player interactions and movements based on game input.">PlayerInputScript</a>. Initializes the script with default values for player speed and fire rate. </p>
+<p>Constructor for <a class="el" href="classPlayerInputScript.html" title="Handles player interactions, movements, and animation states based on game input.">PlayerInputScript</a>. Initializes the script with default values for player speed and fire rate. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00016">16</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00019">19</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
 
 </div>
 </div>
@@ -227,7 +264,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Retrieves the number of keys collected by the player. </p>
 <dl class="section return"><dt>Returns</dt><dd>int The total number of keys collected. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00020">20</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00023">23</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
 
 </div>
 </div>
@@ -255,17 +292,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Updates player state based on input. </p>
-<p>This method checks for player inputs and updates the player's position and actions such as firing based on the input and predefined conditions like fire rate. </p>
+<p>This method checks for player inputs and updates the player's position, actions, and animation states based on the input and current game state. </p>
 
 <p>Reimplemented from <a class="el" href="classScript.html#afe9dc9a9524d9dfa6229d9a2485e85fb">Script</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00024">24</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8cpp_source.html#l00027">27</a> of file <a class="el" href="player__input__script_8cpp_source.html">player_input_script.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae64849a3390c39542346bc779ab3c951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae64849a3390c39542346bc779ab3c951">&#9670;&nbsp;</a></span>m_fireRatePerSecond</h2>
+<a id="a3805759cf55f29918d6c128dc778b74d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3805759cf55f29918d6c128dc778b74d">&#9670;&nbsp;</a></span>m_currentState</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +311,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int PlayerInputScript::m_fireRatePerSecond = 5</td>
+          <td class="memname"><a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922">AnimationState</a> PlayerInputScript::m_currentState = <a class="el" href="classPlayerInputScript.html#a60375abceee17408db036108fbb03922a9e1b5a53af59e916bab3521fadbeb438">IDLE</a></td>
         </tr>
       </table>
   </td>
@@ -284,9 +321,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Fire rate of the player in shots per second. </p>
+<p>Current animation state of the player. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00023">23</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00040">40</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
 
 </div>
 </div>
@@ -312,7 +349,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Number of keys the player has collected. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00027">27</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00039">39</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
 
 </div>
 </div>
@@ -338,7 +375,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Timestamp of the last fire to regulate shooting frequency. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00024">24</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00036">36</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +401,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Speed at which the player moves. </p>
 
-<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00026">26</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="player__input__script_8h_source.html#l00038">38</a> of file <a class="el" href="player__input__script_8h_source.html">player_input_script.h</a>.</p>
 
 </div>
 </div>

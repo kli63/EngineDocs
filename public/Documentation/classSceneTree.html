@@ -101,9 +101,9 @@ $(document).ready(function(){initNavTree('classSceneTree.html',''); initResizabl
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classSceneTree__coll__graph.png" border="0" usemap="#aSceneTree_coll__map" alt="Collaboration graph"/></div>
 <map name="aSceneTree_coll__map" id="aSceneTree_coll__map">
-<area shape="rect" title="Manages a tree structure of SceneNodes, facilitating scene graph operations." alt="" coords="5,380,204,545"/>
-<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="114,5,269,244"/>
-<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="239,307,386,619"/>
+<area shape="rect" title="Manages a tree structure of SceneNodes, facilitating scene graph operations." alt="" coords="5,343,265,582"/>
+<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="154,5,309,244"/>
+<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="290,307,437,619"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -130,19 +130,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae5dab94cdd041091c0ac1bcc9995ef1b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classGameObject.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#ae5dab94cdd041091c0ac1bcc9995ef1b">findGameObjectsByTag</a> (std::string tag)</td></tr>
 <tr class="memdesc:ae5dab94cdd041091c0ac1bcc9995ef1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds GameObjects by a tag.  <a href="classSceneTree.html#ae5dab94cdd041091c0ac1bcc9995ef1b">More...</a><br /></td></tr>
 <tr class="separator:ae5dab94cdd041091c0ac1bcc9995ef1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad87ce302723db2e9c308756ab4a42ac9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classGameObject.html">GameObject</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#ad87ce302723db2e9c308756ab4a42ac9">findCachedGameObjectsInFrame</a> (std::string tag)</td></tr>
+<tr class="memdesc:ad87ce302723db2e9c308756ab4a42ac9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the game objects cached by tag.  <a href="classSceneTree.html#ad87ce302723db2e9c308756ab4a42ac9">More...</a><br /></td></tr>
+<tr class="separator:ad87ce302723db2e9c308756ab4a42ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9530fd60edcda0695ecfe8cc78e2e1ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#a9530fd60edcda0695ecfe8cc78e2e1ea">resetCachedGameObjectsInFrame</a> ()</td></tr>
+<tr class="memdesc:a9530fd60edcda0695ecfe8cc78e2e1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the cached game objects for a new frame, clearing the current frame's cache.  <a href="classSceneTree.html#a9530fd60edcda0695ecfe8cc78e2e1ea">More...</a><br /></td></tr>
+<tr class="separator:a9530fd60edcda0695ecfe8cc78e2e1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2768ee346bcadffa24b518cb2d84f79"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#ae2768ee346bcadffa24b518cb2d84f79">gameStatus</a> ()</td></tr>
+<tr class="memdesc:ae2768ee346bcadffa24b518cb2d84f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current game status.  <a href="classSceneTree.html#ae2768ee346bcadffa24b518cb2d84f79">More...</a><br /></td></tr>
+<tr class="separator:ae2768ee346bcadffa24b518cb2d84f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a5705d195c801f7532acd258768229de1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneNode.html">SceneNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#a5705d195c801f7532acd258768229de1">m_root</a></td></tr>
+<tr class="memdesc:a5705d195c801f7532acd258768229de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root node of the scene tree.  <a href="classSceneTree.html#a5705d195c801f7532acd258768229de1">More...</a><br /></td></tr>
 <tr class="separator:a5705d195c801f7532acd258768229de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fec256f8b1ed44c8abfa0b98e15f5ec"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, <a class="el" href="classGameObject.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#a1fec256f8b1ed44c8abfa0b98e15f5ec">m_cachedGameObjects</a></td></tr>
+<tr class="memdesc:a1fec256f8b1ed44c8abfa0b98e15f5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for faster lookup of GameObjects by ID.  <a href="classSceneTree.html#a1fec256f8b1ed44c8abfa0b98e15f5ec">More...</a><br /></td></tr>
 <tr class="separator:a1fec256f8b1ed44c8abfa0b98e15f5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101b3d0ba39a087ed068052af9eed591"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::vector&lt; <a class="el" href="classGameObject.html">GameObject</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneTree.html#a101b3d0ba39a087ed068052af9eed591">m_cachedGameObjectsInFrame</a></td></tr>
+<tr class="memdesc:a101b3d0ba39a087ed068052af9eed591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cache for faster lookup of GameObjects by tag within a frame.  <a href="classSceneTree.html#a101b3d0ba39a087ed068052af9eed591">More...</a><br /></td></tr>
+<tr class="separator:a101b3d0ba39a087ed068052af9eed591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages a tree structure of SceneNodes, facilitating scene graph operations. </p>
 <p><a class="el" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations.">SceneTree</a> provides mechanisms to add children, traverse the tree, and perform lookups for game objects based on IDs and tags. </p>
 
-<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00106">106</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00108">108</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a78039535c82754241c55b06800df3fea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78039535c82754241c55b06800df3fea">&#9670;&nbsp;</a></span>SceneTree()</h2>
@@ -161,7 +175,7 @@ Private Attributes</h2></td></tr>
 
 <p>Constructor for creating a root node of the scene tree. </p>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00078">78</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00079">79</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -182,7 +196,7 @@ Private Attributes</h2></td></tr>
 
 <p>Destructor, cleans up the tree resources. </p>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00082">82</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00083">83</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -222,7 +236,36 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00086">86</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00087">87</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad87ce302723db2e9c308756ab4a42ac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad87ce302723db2e9c308756ab4a42ac9">&#9670;&nbsp;</a></span>findCachedGameObjectsInFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classGameObject.html">GameObject</a> * &gt; &amp; SceneTree::findCachedGameObjectsInFrame </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>tag</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the game objects cached by tag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tag</td><td>The tag string to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of GameObjects with the specified tag. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00139">139</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -251,7 +294,7 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the <a class="el" href="classGameObject.html" title="Core class representing an entity in the game world.">GameObject</a> if found, nullptr otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00103">103</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00104">104</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -280,7 +323,50 @@ Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector of GameObjects with the specified tag. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00113">113</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00114">114</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae2768ee346bcadffa24b518cb2d84f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2768ee346bcadffa24b518cb2d84f79">&#9670;&nbsp;</a></span>gameStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SceneTree::gameStatus </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the current game status. </p>
+<dl class="section return"><dt>Returns</dt><dd>Integer representing the current game status. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00147">147</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9530fd60edcda0695ecfe8cc78e2e1ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9530fd60edcda0695ecfe8cc78e2e1ea">&#9670;&nbsp;</a></span>resetCachedGameObjectsInFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneTree::resetCachedGameObjectsInFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resets the cached game objects for a new frame, clearing the current frame's cache. </p>
+
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00143">143</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -319,7 +405,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00094">94</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00095">95</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -347,7 +433,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00090">90</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00091">91</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
 </div>
 </div>
@@ -372,7 +458,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00155">155</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
+<p>Cache for faster lookup of GameObjects by ID. </p>
+
+<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00176">176</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
+
+</div>
+</div>
+<a id="a101b3d0ba39a087ed068052af9eed591"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101b3d0ba39a087ed068052af9eed591">&#9670;&nbsp;</a></span>m_cachedGameObjectsInFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;std::string, std::vector&lt;<a class="el" href="classGameObject.html">GameObject</a>*&gt; &gt; SceneTree::m_cachedGameObjectsInFrame</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cache for faster lookup of GameObjects by tag within a frame. </p>
+
+<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00177">177</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +510,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00154">154</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
+<p>Root node of the scene tree. </p>
+
+<p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00174">174</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
 </div>
 </div>

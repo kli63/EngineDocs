@@ -104,10 +104,12 @@ $(document).ready(function(){initNavTree('classSceneManager.html',''); initResiz
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classSceneManager__coll__graph.png" border="0" usemap="#aSceneManager_coll__map" alt="Collaboration graph"/></div>
 <map name="aSceneManager_coll__map" id="aSceneManager_coll__map">
-<area shape="rect" title="Singleton class that manages scenes and their transitions." alt="" coords="19,681,191,979"/>
-<area shape="rect" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations." alt="" coords="5,380,204,545"/>
-<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="114,5,269,244"/>
-<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="239,307,386,619"/>
+<area shape="rect" title="Singleton class that manages scenes and their transitions." alt="" coords="181,880,389,1280"/>
+<area shape="rect" href="classCamera.html" title="Manages the camera&#39;s view in a game, handling its position in the world space." alt="" coords="207,681,364,817"/>
+<area shape="rect" href="classComponent.html" title="Base class for all game components, providing basic component functionalities." alt="" coords="5,395,139,604"/>
+<area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="105,5,252,317"/>
+<area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="163,380,317,619"/>
+<area shape="rect" href="structVec2.html" title="A structure to represent 2D vectors." alt="" coords="438,439,562,560"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -116,9 +118,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af2a7dd0407e9d34f9e8d87537140da9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#af2a7dd0407e9d34f9e8d87537140da9e">setRenderer</a> (SDL_Renderer *renderer)</td></tr>
 <tr class="memdesc:af2a7dd0407e9d34f9e8d87537140da9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the renderer used for drawing game objects.  <a href="classSceneManager.html#af2a7dd0407e9d34f9e8d87537140da9e">More...</a><br /></td></tr>
 <tr class="separator:af2a7dd0407e9d34f9e8d87537140da9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3342da31d3c9f55ef40b107e262f4d7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a3342da31d3c9f55ef40b107e262f4d7e">loadDemo</a> ()</td></tr>
+<tr class="separator:a3342da31d3c9f55ef40b107e262f4d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762dc457185301be03d27be84a0fe470"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a762dc457185301be03d27be84a0fe470">loadScenesFromJSON</a> (const std::string &amp;filePath)</td></tr>
+<tr class="separator:a762dc457185301be03d27be84a0fe470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a324ba533ff8b9756e422eb3c1623656e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a324ba533ff8b9756e422eb3c1623656e">getNextScene</a> ()</td></tr>
 <tr class="memdesc:a324ba533ff8b9756e422eb3c1623656e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advances to the next scene based on the current scene index.  <a href="classSceneManager.html#a324ba533ff8b9756e422eb3c1623656e">More...</a><br /></td></tr>
 <tr class="separator:a324ba533ff8b9756e422eb3c1623656e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab15fb58073d0182b2a836978c35373b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#ab15fb58073d0182b2a836978c35373b2">getSceneIndex</a> ()</td></tr>
+<tr class="memdesc:ab15fb58073d0182b2a836978c35373b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the index of the current scene.  <a href="classSceneManager.html#ab15fb58073d0182b2a836978c35373b2">More...</a><br /></td></tr>
+<tr class="separator:ab15fb58073d0182b2a836978c35373b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab121b40e75eb2a9477a77dcc89dd0dac"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#ab121b40e75eb2a9477a77dcc89dd0dac">getRenderer</a> ()</td></tr>
 <tr class="memdesc:ab121b40e75eb2a9477a77dcc89dd0dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current SDL_Renderer used by the <a class="el" href="classSceneManager.html" title="Singleton class that manages scenes and their transitions.">SceneManager</a>.  <a href="classSceneManager.html#ab121b40e75eb2a9477a77dcc89dd0dac">More...</a><br /></td></tr>
 <tr class="separator:ab121b40e75eb2a9477a77dcc89dd0dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,9 +137,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a339f0aa41071d5e3983a318d257b5fd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a339f0aa41071d5e3983a318d257b5fd2">cleanTree</a> ()</td></tr>
 <tr class="memdesc:a339f0aa41071d5e3983a318d257b5fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up the scene tree, removing all inactive game objects.  <a href="classSceneManager.html#a339f0aa41071d5e3983a318d257b5fd2">More...</a><br /></td></tr>
 <tr class="separator:a339f0aa41071d5e3983a318d257b5fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc5bff2055d62536afac59930905f3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#aebc5bff2055d62536afac59930905f3c">getCameraWorldPosition</a> ()</td></tr>
+<tr class="memdesc:aebc5bff2055d62536afac59930905f3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the world position of the camera.  <a href="classSceneManager.html#aebc5bff2055d62536afac59930905f3c">More...</a><br /></td></tr>
+<tr class="separator:aebc5bff2055d62536afac59930905f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e07848c9864e4d28e61495ba178b28b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneTree.html">SceneTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a1e07848c9864e4d28e61495ba178b28b">createSceneTest1</a> ()</td></tr>
 <tr class="memdesc:a1e07848c9864e4d28e61495ba178b28b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a test scene. This method is an example of how to define specific scenes.  <a href="classSceneManager.html#a1e07848c9864e4d28e61495ba178b28b">More...</a><br /></td></tr>
 <tr class="separator:a1e07848c9864e4d28e61495ba178b28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cc5650ed7b019a3dbc94e951d16500c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneTree.html">SceneTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a0cc5650ed7b019a3dbc94e951d16500c">createSceneTest2</a> ()</td></tr>
+<tr class="separator:a0cc5650ed7b019a3dbc94e951d16500c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60dc0d14ca9b0316b2cbb9332cfd695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneTree.html">SceneTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#aa60dc0d14ca9b0316b2cbb9332cfd695">createSceneTest3</a> ()</td></tr>
+<tr class="separator:aa60dc0d14ca9b0316b2cbb9332cfd695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ebdf7c7fa8a44fc6ea52456daa1e1b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a3ebdf7c7fa8a44fc6ea52456daa1e1b5">input</a> ()</td></tr>
 <tr class="memdesc:a3ebdf7c7fa8a44fc6ea52456daa1e1b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes input for the current scene.  <a href="classSceneManager.html#a3ebdf7c7fa8a44fc6ea52456daa1e1b5">More...</a><br /></td></tr>
 <tr class="separator:a3ebdf7c7fa8a44fc6ea52456daa1e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,18 +189,20 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a68a1b3c0090086d5e25f731f2202e451"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a68a1b3c0090086d5e25f731f2202e451">m_renderer</a></td></tr>
 <tr class="memdesc:a68a1b3c0090086d5e25f731f2202e451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renderer used to render the game objects.  <a href="classSceneManager.html#a68a1b3c0090086d5e25f731f2202e451">More...</a><br /></td></tr>
 <tr class="separator:a68a1b3c0090086d5e25f731f2202e451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adde2f0f5a55d46c3f37f3a7b5d61dcd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneTree.html">SceneTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#adde2f0f5a55d46c3f37f3a7b5d61dcd8">m_sceneTree</a></td></tr>
-<tr class="memdesc:adde2f0f5a55d46c3f37f3a7b5d61dcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scene tree to manage game objects in the current scene.  <a href="classSceneManager.html#adde2f0f5a55d46c3f37f3a7b5d61dcd8">More...</a><br /></td></tr>
-<tr class="separator:adde2f0f5a55d46c3f37f3a7b5d61dcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a758480bc861a13c4639a47910291d8d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a758480bc861a13c4639a47910291d8d7">m_currentSceneIndex</a> = 0</td></tr>
+<tr class="memitem:a139c69cfd4d241ab8168dccf9982f569"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSceneTree.html">SceneTree</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a139c69cfd4d241ab8168dccf9982f569">m_sceneTrees</a></td></tr>
+<tr class="memdesc:a139c69cfd4d241ab8168dccf9982f569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of scene trees.  <a href="classSceneManager.html#a139c69cfd4d241ab8168dccf9982f569">More...</a><br /></td></tr>
+<tr class="separator:a139c69cfd4d241ab8168dccf9982f569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758480bc861a13c4639a47910291d8d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#a758480bc861a13c4639a47910291d8d7">m_currentSceneIndex</a> = -1</td></tr>
 <tr class="memdesc:a758480bc861a13c4639a47910291d8d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the current scene in the game.  <a href="classSceneManager.html#a758480bc861a13c4639a47910291d8d7">More...</a><br /></td></tr>
 <tr class="separator:a758480bc861a13c4639a47910291d8d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94c705cc43692e727abdd410e0ba142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCamera.html">Camera</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneManager.html#ab94c705cc43692e727abdd410e0ba142">m_camera</a></td></tr>
+<tr class="separator:ab94c705cc43692e727abdd410e0ba142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Singleton class that manages scenes and their transitions. </p>
 <p>This class implements the singleton pattern to manage scenes throughout the game. It provides mechanisms to switch scenes, render them, and manage game objects within them. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00024">24</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00026">26</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a52085e6737c23b491c228e86781af808"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52085e6737c23b491c228e86781af808">&#9670;&nbsp;</a></span>SceneManager() <span class="overload">[1/2]</span></h2>
@@ -211,7 +229,7 @@ Private Attributes</h2></td></tr>
 
 <p>Private constructor for singleton pattern. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00035">35</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00020">20</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +279,7 @@ Private Attributes</h2></td></tr>
 
 <p>Cleans up the scene tree, removing all inactive game objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00077">77</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00287">287</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -283,7 +301,67 @@ Private Attributes</h2></td></tr>
 <p>Creates a test scene. This method is an example of how to define specific scenes. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the created <a class="el" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations.">SceneTree</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00042">42</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00173">173</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0cc5650ed7b019a3dbc94e951d16500c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cc5650ed7b019a3dbc94e951d16500c">&#9670;&nbsp;</a></span>createSceneTest2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSceneTree.html">SceneTree</a> * SceneManager::createSceneTest2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00211">211</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa60dc0d14ca9b0316b2cbb9332cfd695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60dc0d14ca9b0316b2cbb9332cfd695">&#9670;&nbsp;</a></span>createSceneTest3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSceneTree.html">SceneTree</a> * SceneManager::createSceneTest3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00249">249</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aebc5bff2055d62536afac59930905f3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc5bff2055d62536afac59930905f3c">&#9670;&nbsp;</a></span>getCameraWorldPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structVec2.html">Vec2</a> SceneManager::getCameraWorldPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the world position of the camera. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structVec2.html" title="A structure to represent 2D vectors.">Vec2</a> representing the camera's world position. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00154">154</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -313,7 +391,7 @@ Private Attributes</h2></td></tr>
 <p>Retrieves the singleton instance of <a class="el" href="classSceneManager.html" title="Singleton class that manages scenes and their transitions.">SceneManager</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Reference to the singleton instance of <a class="el" href="classSceneManager.html" title="Singleton class that manages scenes and their transitions.">SceneManager</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00013">13</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00015">15</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +412,7 @@ Private Attributes</h2></td></tr>
 
 <p>Advances to the next scene based on the current scene index. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00026">26</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00158">158</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +434,29 @@ Private Attributes</h2></td></tr>
 <p>Retrieves the current SDL_Renderer used by the <a class="el" href="classSceneManager.html" title="Singleton class that manages scenes and their transitions.">SceneManager</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to SDL_Renderer. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00038">38</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00150">150</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab15fb58073d0182b2a836978c35373b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab15fb58073d0182b2a836978c35373b2">&#9670;&nbsp;</a></span>getSceneIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SceneManager::getSceneIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the index of the current scene. </p>
+<dl class="section return"><dt>Returns</dt><dd>Index of the current scene. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00169">169</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -378,7 +478,7 @@ Private Attributes</h2></td></tr>
 <p>Retrieves the current scene tree managing the game objects. </p>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the current <a class="el" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations.">SceneTree</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00022">22</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00028">28</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -399,7 +499,46 @@ Private Attributes</h2></td></tr>
 
 <p>Processes input for the current scene. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00089">89</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00301">301</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3342da31d3c9f55ef40b107e262f4d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3342da31d3c9f55ef40b107e262f4d7e">&#9670;&nbsp;</a></span>loadDemo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneManager::loadDemo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00032">32</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a762dc457185301be03d27be84a0fe470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762dc457185301be03d27be84a0fe470">&#9670;&nbsp;</a></span>loadScenesFromJSON()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SceneManager::loadScenesFromJSON </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00038">38</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +587,7 @@ Private Attributes</h2></td></tr>
 
 <p>Renders the current scene. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00113">113</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00331">331</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -476,7 +615,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00018">18</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00024">24</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +636,7 @@ Private Attributes</h2></td></tr>
 
 <p>Updates the state of the current scene. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00100">100</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8cpp_source.html#l00312">312</a> of file <a class="el" href="scenemanager_8cpp_source.html">scenemanager.cpp</a>.</p>
 
 </div>
 </div>
@@ -524,7 +663,31 @@ Private Attributes</h2></td></tr>
 
 <p>Current number of active game objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00055">55</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00058">58</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+
+</div>
+</div>
+<a id="ab94c705cc43692e727abdd410e0ba142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94c705cc43692e727abdd410e0ba142">&#9670;&nbsp;</a></span>m_camera</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCamera.html">Camera</a>* SceneManager::m_camera</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00033">33</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +701,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int SceneManager::m_currentSceneIndex = 0</td>
+          <td class="memname">int SceneManager::m_currentSceneIndex = -1</td>
         </tr>
       </table>
   </td>
@@ -550,7 +713,7 @@ Private Attributes</h2></td></tr>
 
 <p>Index of the current scene in the game. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00030">30</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00032">32</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 
 </div>
 </div>
@@ -576,12 +739,12 @@ Private Attributes</h2></td></tr>
 
 <p>Renderer used to render the game objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00027">27</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00029">29</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 
 </div>
 </div>
-<a id="adde2f0f5a55d46c3f37f3a7b5d61dcd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adde2f0f5a55d46c3f37f3a7b5d61dcd8">&#9670;&nbsp;</a></span>m_sceneTree</h2>
+<a id="a139c69cfd4d241ab8168dccf9982f569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139c69cfd4d241ab8168dccf9982f569">&#9670;&nbsp;</a></span>m_sceneTrees</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -590,7 +753,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classSceneTree.html">SceneTree</a>* SceneManager::m_sceneTree</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classSceneTree.html">SceneTree</a>*&gt; SceneManager::m_sceneTrees</td>
         </tr>
       </table>
   </td>
@@ -600,9 +763,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Scene tree to manage game objects in the current scene. </p>
+<p>Array of scene trees. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00028">28</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00030">30</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +791,7 @@ Private Attributes</h2></td></tr>
 
 <p>Total number of game objects created. </p>
 
-<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00054">54</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="scenemanager_8h_source.html#l00057">57</a> of file <a class="el" href="scenemanager_8h_source.html">scenemanager.h</a>.</p>
 
 </div>
 </div>

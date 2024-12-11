@@ -101,13 +101,15 @@ $(document).ready(function(){initNavTree('classComponent.html',''); initResizabl
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classComponent__inherit__graph.png" border="0" usemap="#aComponent_inherit__map" alt="Inheritance graph"/></div>
 <map name="aComponent_inherit__map" id="aComponent_inherit__map">
-<area shape="rect" title="Base class for all game components, providing basic component functionalities." alt="" coords="387,5,520,229"/>
-<area shape="rect" href="classCollide.html" title="Component to handle collisions between game objects." alt="" coords="5,277,176,604"/>
-<area shape="rect" href="classHealth.html" title="A component for managing health of game objects." alt="" coords="201,380,341,501"/>
-<area shape="rect" href="classInput.html" title="Component for handling and storing the state of input devices." alt="" coords="365,321,541,560"/>
-<area shape="rect" href="classTexture.html" title="Component for managing textures in the game engine." alt="" coords="565,285,763,597"/>
-<area shape="rect" href="classTransform.html" title="Component for handling the transformation of game objects." alt="" coords="787,292,968,589"/>
-<area shape="rect" href="classAnimation.html" title="Component to handle animation of game objects. Derived from Texture." alt="" coords="560,652,768,1037"/>
+<area shape="rect" title="Base class for all game components, providing basic component functionalities." alt="" coords="476,5,609,229"/>
+<area shape="rect" href="classCamera.html" title="Manages the camera&#39;s view in a game, handling its position in the world space." alt="" coords="5,373,163,509"/>
+<area shape="rect" href="classCollide.html" title="Component to handle collisions between game objects." alt="" coords="187,277,357,604"/>
+<area shape="rect" href="classHealth.html" title="A component for managing health of game objects." alt="" coords="382,373,522,509"/>
+<area shape="rect" href="classInput.html" title="Component for handling and storing the state of input devices." alt="" coords="547,321,723,560"/>
+<area shape="rect" href="classTexture.html" title="Component for handling textures in the game engine." alt="" coords="747,277,944,604"/>
+<area shape="rect" href="classTransform.html" title="Component for handling the transformation of game objects." alt="" coords="968,292,1149,589"/>
+<area shape="rect" href="classAnimation.html" title="Component to handle animation of game objects. Derived from Texture." alt="" coords="620,652,828,1037"/>
+<area shape="rect" href="classAnimationsManager.html" title="Manages a collection of animations for a game entity, with functionality to play, pause,..." alt="" coords="853,718,1078,971"/>
 </map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -348,7 +350,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Virtual method for rendering, intended to be overridden by derived components. </p>
 
-<p>Reimplemented in <a class="el" href="classTexture.html#a800d2fde67c26e55834c5b38e4f7d885">Texture</a>, and <a class="el" href="classCollide.html#aa5d54c6b2b772ad9554cf1e7d71c0070">Collide</a>.</p>
+<p>Reimplemented in <a class="el" href="classTexture.html#a800d2fde67c26e55834c5b38e4f7d885">Texture</a>, <a class="el" href="classAnimationsManager.html#a7099ff38da982655d87bc42d466e6da2">AnimationsManager</a>, and <a class="el" href="classCollide.html#aa5d54c6b2b772ad9554cf1e7d71c0070">Collide</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="component_8cpp_source.html#l00035">35</a> of file <a class="el" href="component_8cpp_source.html">component.cpp</a>.</p>
 
@@ -435,7 +437,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Virtual method for updating the component's state, intended to be overridden by derived components. </p>
 
-<p>Reimplemented in <a class="el" href="classTexture.html#a0764b6f1c7a0abf17989c465628d75b0">Texture</a>, <a class="el" href="classInput.html#a4ae1574af927b93c55973dcb90164e3d">Input</a>, <a class="el" href="classAnimation.html#aab92a748afeebf2ea1b7976a43b0ffc1">Animation</a>, <a class="el" href="classTransform.html#a377194ad810fc2e6d05e3008eb8c7655">Transform</a>, and <a class="el" href="classCollide.html#ac62d7dd9606aa4edab0b50d0d4f39271">Collide</a>.</p>
+<p>Reimplemented in <a class="el" href="classTexture.html#a0764b6f1c7a0abf17989c465628d75b0">Texture</a>, <a class="el" href="classInput.html#a4ae1574af927b93c55973dcb90164e3d">Input</a>, <a class="el" href="classAnimationsManager.html#ab24805064e5d717c67e5faf0aa2ecfb2">AnimationsManager</a>, <a class="el" href="classAnimation.html#aab92a748afeebf2ea1b7976a43b0ffc1">Animation</a>, <a class="el" href="classTransform.html#a377194ad810fc2e6d05e3008eb8c7655">Transform</a>, <a class="el" href="classCollide.html#ac62d7dd9606aa4edab0b50d0d4f39271">Collide</a>, and <a class="el" href="classCamera.html#a42cda7239981a5618660d04bd5893556">Camera</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="component_8cpp_source.html#l00031">31</a> of file <a class="el" href="component_8cpp_source.html">component.cpp</a>.</p>
 

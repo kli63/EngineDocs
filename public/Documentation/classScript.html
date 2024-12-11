@@ -101,12 +101,13 @@ $(document).ready(function(){initNavTree('classScript.html',''); initResizable()
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classScript__inherit__graph.png" border="0" usemap="#aScript_inherit__map" alt="Inheritance graph"/></div>
 <map name="aScript_inherit__map" id="aScript_inherit__map">
-<area shape="rect" title="Base class for scripting custom behaviors in game objects." alt="" coords="367,5,477,215"/>
-<area shape="rect" href="classCollisionScript.html" title="Script to manage collisions between game objects." alt="" coords="5,292,145,399"/>
-<area shape="rect" href="classEnemyAIScript.html" title="Script to manage enemy artificial intelligence." alt="" coords="169,299,312,391"/>
-<area shape="rect" href="classPlayerInputScript.html" title="Handles player interactions and movements based on game input." alt="" coords="337,270,507,421"/>
-<area shape="rect" href="classProjectileScript.html" title="Controls the movement of a projectile." alt="" coords="532,292,677,399"/>
-<area shape="rect" href="classRangedWeaponScript.html" title="Controls the behavior of ranged weapons such as bows or guns." alt="" coords="701,263,887,428"/>
+<area shape="rect" title="Base class for scripting custom behaviors in game objects." alt="" coords="419,5,529,215"/>
+<area shape="rect" href="classCollisionScript.html" title="Script to manage collisions between game objects." alt="" coords="5,285,145,391"/>
+<area shape="rect" href="classCrosshairScript.html" title="Script for managing the crosshair in the game." alt="" coords="170,299,290,377"/>
+<area shape="rect" href="classEnemyAIScript.html" title="Script to manage enemy artificial intelligence." alt="" coords="315,285,457,391"/>
+<area shape="rect" href="classPlayerInputScript.html" title="Handles player interactions, movements, and animation states based on game input." alt="" coords="482,263,645,413"/>
+<area shape="rect" href="classProjectileScript.html" title="Controls the movement of a projectile." alt="" coords="669,285,815,391"/>
+<area shape="rect" href="classRangedWeaponScript.html" title="Controls the behavior of ranged weapons such as bows or guns." alt="" coords="839,263,1024,413"/>
 </map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -346,7 +347,7 @@ Public Attributes</h2></td></tr>
 
 <p>Virtual method for rendering operations. Should be overridden by derived classes. </p>
 
-<p>Reimplemented in <a class="el" href="classCollisionScript.html#a4d296cc9fe63d927f5935b11ff2e6bbe">CollisionScript</a>.</p>
+<p>Reimplemented in <a class="el" href="classEnemyAIScript.html#a2d9c9a37ea3788f95480be98b63f6aa6">EnemyAIScript</a>, and <a class="el" href="classCollisionScript.html#a4d296cc9fe63d927f5935b11ff2e6bbe">CollisionScript</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="script_8cpp_source.html#l00027">27</a> of file <a class="el" href="script_8cpp_source.html">script.cpp</a>.</p>
 
@@ -405,7 +406,7 @@ Public Attributes</h2></td></tr>
 
 <p>Virtual method for updating the script's state. Should be overridden by derived classes. </p>
 
-<p>Reimplemented in <a class="el" href="classRangedWeaponScript.html#ac1435d408619901b6eb8d1e2362564be">RangedWeaponScript</a>, <a class="el" href="classProjectileScript.html#a935d4734b9f8d6eaaea8c9bebd5ad4e1">ProjectileScript</a>, <a class="el" href="classPlayerInputScript.html#a600329687d05ff865b1c7f777663f378">PlayerInputScript</a>, <a class="el" href="classEnemyAIScript.html#a1b551aac5852db6b0e82def04912ee67">EnemyAIScript</a>, and <a class="el" href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0">CollisionScript</a>.</p>
+<p>Reimplemented in <a class="el" href="classRangedWeaponScript.html#ac1435d408619901b6eb8d1e2362564be">RangedWeaponScript</a>, <a class="el" href="classProjectileScript.html#a935d4734b9f8d6eaaea8c9bebd5ad4e1">ProjectileScript</a>, <a class="el" href="classPlayerInputScript.html#a600329687d05ff865b1c7f777663f378">PlayerInputScript</a>, <a class="el" href="classEnemyAIScript.html#a1b551aac5852db6b0e82def04912ee67">EnemyAIScript</a>, <a class="el" href="classCrosshairScript.html#a1a2ce619a753ed9e204504bcf209e987">CrosshairScript</a>, and <a class="el" href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0">CollisionScript</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="script_8cpp_source.html#l00024">24</a> of file <a class="el" href="script_8cpp_source.html">script.cpp</a>.</p>
 

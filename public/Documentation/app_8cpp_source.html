@@ -90,20 +90,28 @@ $(document).ready(function(){initNavTree('app_8cpp_source.html',''); initResizab
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gameapp_8h.html">gameapp.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;SDL2/SDL.h&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">    6</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">    6</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[])</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="structGameApplication.html">GameApplication</a> app(<span class="stringliteral">&quot;Final project game app!&quot;</span>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    app.<a class="code" href="structGameApplication.html#a7a1ce9a4a998b161a40662beb51ef430">start</a>();</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    app.<a class="code" href="structGameApplication.html#a06128d2f3100fe1d2b7fdd5edbf04475">runLoop</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    SDL_Quit();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aapp_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="app_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="app_8cpp_source.html#l00006">app.cpp:6</a></div></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (argc &gt; 1 &amp;&amp; std::string(argv[1]) == <span class="stringliteral">&quot;demo&quot;</span>) {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;Loading demo scene...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        app.<a class="code" href="structGameApplication.html#ac0eeb62e29e3831fa9026d0c54a8ff1b">start</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;Loading scenes from JSON...&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        app.<a class="code" href="structGameApplication.html#ac0eeb62e29e3831fa9026d0c54a8ff1b">start</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    app.<a class="code" href="structGameApplication.html#a06128d2f3100fe1d2b7fdd5edbf04475">runLoop</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    SDL_Quit();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="aapp_8cpp_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="app_8cpp_source.html#l00006">app.cpp:6</a></div></div>
 <div class="ttc" id="agameapp_8h_html"><div class="ttname"><a href="gameapp_8h.html">gameapp.h</a></div></div>
 <div class="ttc" id="astructGameApplication_html"><div class="ttname"><a href="structGameApplication.html">GameApplication</a></div><div class="ttdoc">Manages the main game loop, rendering, and application state.</div><div class="ttdef"><b>Definition:</b> <a href="gameapp_8h_source.html#l00022">gameapp.h:22</a></div></div>
-<div class="ttc" id="astructGameApplication_html_a06128d2f3100fe1d2b7fdd5edbf04475"><div class="ttname"><a href="structGameApplication.html#a06128d2f3100fe1d2b7fdd5edbf04475">GameApplication::runLoop</a></div><div class="ttdeci">void runLoop()</div><div class="ttdoc">The main game loop that runs continuously while the game is active. This loop calls the input,...</div><div class="ttdef"><b>Definition:</b> <a href="gameapp_8cpp_source.html#l00145">gameapp.cpp:145</a></div></div>
-<div class="ttc" id="astructGameApplication_html_a7a1ce9a4a998b161a40662beb51ef430"><div class="ttname"><a href="structGameApplication.html#a7a1ce9a4a998b161a40662beb51ef430">GameApplication::start</a></div><div class="ttdeci">void start()</div><div class="ttdoc">Starts the game application, initializing all necessary resources.</div><div class="ttdef"><b>Definition:</b> <a href="gameapp_8cpp_source.html#l00047">gameapp.cpp:47</a></div></div>
+<div class="ttc" id="astructGameApplication_html_a06128d2f3100fe1d2b7fdd5edbf04475"><div class="ttname"><a href="structGameApplication.html#a06128d2f3100fe1d2b7fdd5edbf04475">GameApplication::runLoop</a></div><div class="ttdeci">void runLoop()</div><div class="ttdoc">The main game loop that runs continuously while the game is active. This loop calls the input,...</div><div class="ttdef"><b>Definition:</b> <a href="gameapp_8cpp_source.html#l00158">gameapp.cpp:158</a></div></div>
+<div class="ttc" id="astructGameApplication_html_ac0eeb62e29e3831fa9026d0c54a8ff1b"><div class="ttname"><a href="structGameApplication.html#ac0eeb62e29e3831fa9026d0c54a8ff1b">GameApplication::start</a></div><div class="ttdeci">void start(bool demo)</div><div class="ttdoc">Starts the game application, initializing all necessary resources.</div><div class="ttdef"><b>Definition:</b> <a href="gameapp_8cpp_source.html#l00047">gameapp.cpp:47</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

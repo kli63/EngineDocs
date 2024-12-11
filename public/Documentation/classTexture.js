@@ -5,6 +5,7 @@ var classTexture =
     [ "getTexture", "classTexture.html#a77a1ae0043a4b318a60df3b02ef2d3f6", null ],
     [ "render", "classTexture.html#a800d2fde67c26e55834c5b38e4f7d885", null ],
     [ "setAngle", "classTexture.html#a3946472d85f6f5aba196873f11ac25ea", null ],
+    [ "setColorMod", "classTexture.html#a7bafae45c8f6bd689c9cb30d1ca39246", null ],
     [ "setFlipHorizontal", "classTexture.html#a74526fa7e3edf37488d757c14c241e63", null ],
     [ "setFlipVertical", "classTexture.html#aa037722bfea72022d4c40573187aecc6", null ],
     [ "setPositionInSpriteMap", "classTexture.html#a4fcdefcb48b6ff9729853c76c0311f3d", null ],

@@ -200,7 +200,7 @@ Texture</h2>
 <div class="line">texture.setPositionInSpriteMap(0, 0)</div>
 <div class="line">texture.setFlipHorizontal(False)</div>
 </div><!-- fragment --><p>Methods:</p><ul>
-<li><code><a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture()</a></code> - Default constructor</li>
+<li><code><a class="el" href="classTexture.html" title="Component for handling textures in the game engine.">Texture()</a></code> - Default constructor</li>
 <li><code>setSizeInSpriteMap(w: int, h: int)</code> - Set sprite size</li>
 <li><code>setPositionInSpriteMap(x: int, y: int)</code> - Set sprite position</li>
 <li><code>setFlipHorizontal(flip: bool)</code> - Set horizontal flip</li>
@@ -209,7 +209,7 @@ Texture</h2>
 </ul>
 <h2><a class="anchor" id="animation_component"></a>
 Animation</h2>
-<p>Handles sprite sheet animations, inherits from <a class="el" href="classTexture.html" title="Component for managing textures in the game engine.">Texture</a>. </p><div class="fragment"><div class="line"># Create animated sprite</div>
+<p>Handles sprite sheet animations, inherits from <a class="el" href="classTexture.html" title="Component for handling textures in the game engine.">Texture</a>. </p><div class="fragment"><div class="line"># Create animated sprite</div>
 <div class="line">animation = engine.Animation()</div>
 <div class="line">animation.setRowsColsInSpriteMap(1, 6)  # 1 row, 6 frames</div>
 <div class="line">animation.setAnimationTime(0.5)         # Half second per cycle</div>
@@ -257,7 +257,7 @@ PlayerInputScript</h2>
 <div class="line">script = engine.PlayerInputScript()</div>
 <div class="line">player.addScript(script)</div>
 </div><!-- fragment --><p>Methods:</p><ul>
-<li><code><a class="el" href="classPlayerInputScript.html" title="Handles player interactions and movements based on game input.">PlayerInputScript()</a></code> - Create script</li>
+<li><code><a class="el" href="classPlayerInputScript.html" title="Handles player interactions, movements, and animation states based on game input.">PlayerInputScript()</a></code> - Create script</li>
 <li><code>getKeysCollected() -&gt; int</code> - Get collected keys</li>
 <li><code>update()</code> - Update player</li>
 </ul>

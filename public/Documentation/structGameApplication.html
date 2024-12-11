@@ -116,9 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abe9fdccf1624531ce65a0befb1099be1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGameApplication.html#abe9fdccf1624531ce65a0befb1099be1">printStats</a> ()</td></tr>
 <tr class="memdesc:abe9fdccf1624531ce65a0befb1099be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints current game statistics like FPS.  <a href="structGameApplication.html#abe9fdccf1624531ce65a0befb1099be1">More...</a><br /></td></tr>
 <tr class="separator:abe9fdccf1624531ce65a0befb1099be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a1ce9a4a998b161a40662beb51ef430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGameApplication.html#a7a1ce9a4a998b161a40662beb51ef430">start</a> ()</td></tr>
-<tr class="memdesc:a7a1ce9a4a998b161a40662beb51ef430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the game application, initializing all necessary resources.  <a href="structGameApplication.html#a7a1ce9a4a998b161a40662beb51ef430">More...</a><br /></td></tr>
-<tr class="separator:a7a1ce9a4a998b161a40662beb51ef430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0eeb62e29e3831fa9026d0c54a8ff1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGameApplication.html#ac0eeb62e29e3831fa9026d0c54a8ff1b">start</a> (bool demo)</td></tr>
+<tr class="memdesc:ac0eeb62e29e3831fa9026d0c54a8ff1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the game application, initializing all necessary resources.  <a href="structGameApplication.html#ac0eeb62e29e3831fa9026d0c54a8ff1b">More...</a><br /></td></tr>
+<tr class="separator:ac0eeb62e29e3831fa9026d0c54a8ff1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8b3259e0da004ce23e77a0ba11f044b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGameApplication.html#ae8b3259e0da004ce23e77a0ba11f044b">input</a> ()</td></tr>
 <tr class="memdesc:ae8b3259e0da004ce23e77a0ba11f044b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes input from the user. This function should be called in the game loop to handle events like keystrokes and mouse movements.  <a href="structGameApplication.html#ae8b3259e0da004ce23e77a0ba11f044b">More...</a><br /></td></tr>
 <tr class="separator:ae8b3259e0da004ce23e77a0ba11f044b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,7 +223,7 @@ Public Attributes</h2></td></tr>
 
 <p>Advances the game frame, updating timing and FPS calculations. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00139">139</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00152">152</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
@@ -244,7 +244,7 @@ Public Attributes</h2></td></tr>
 
 <p>Processes input from the user. This function should be called in the game loop to handle events like keystrokes and mouse movements. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00112">112</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00125">125</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Public Attributes</h2></td></tr>
 
 <p>Prints current game statistics like FPS. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00061">61</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00068">68</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
@@ -286,7 +286,7 @@ Public Attributes</h2></td></tr>
 
 <p>Renders the game state to the window. This function should be called once per frame to draw all game visuals. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00129">129</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00142">142</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
@@ -307,12 +307,12 @@ Public Attributes</h2></td></tr>
 
 <p>The main game loop that runs continuously while the game is active. This loop calls the input, update, and render functions in sequence. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00145">145</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00158">158</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a7a1ce9a4a998b161a40662beb51ef430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a1ce9a4a998b161a40662beb51ef430">&#9670;&nbsp;</a></span>start()</h2>
+<a id="ac0eeb62e29e3831fa9026d0c54a8ff1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0eeb62e29e3831fa9026d0c54a8ff1b">&#9670;&nbsp;</a></span>start()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +320,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">void GameApplication::start </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>demo</em> = <code>false</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -349,7 +350,7 @@ Public Attributes</h2></td></tr>
 
 <p>Updates the game state. This function should be called once per frame to update the state of the game, including game objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00125">125</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="gameapp_8cpp_source.html#l00138">138</a> of file <a class="el" href="gameapp_8cpp_source.html">gameapp.cpp</a>.</p>
 
 </div>
 </div>
