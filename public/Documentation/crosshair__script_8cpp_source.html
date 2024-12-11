@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('crosshair__script_8cpp_source.html',''
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">auto</span> cameraPosition = <a class="code" href="classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc">SceneManager::getInstance</a>().<a class="code" href="classSceneManager.html#aebc5bff2055d62536afac59930905f3c">getCameraWorldPosition</a>();</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classScript.html#a482eda1ba7b2c42605c8798ff7d67ab7">input</a> &amp;&amp; transform) {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">int</span> worldMouseX = <a class="code" href="classScript.html#a482eda1ba7b2c42605c8798ff7d67ab7">input</a>-&gt;m_mouseX + cameraPosition.x - 320;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">int</span> worldMouseY = <a class="code" href="classScript.html#a482eda1ba7b2c42605c8798ff7d67ab7">input</a>-&gt;m_mouseY + cameraPosition.y - 240;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">int</span> worldMouseX = <a class="code" href="classScript.html#a482eda1ba7b2c42605c8798ff7d67ab7">input</a>-&gt;m_mouseX + cameraPosition.x - 320 - 8;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">int</span> worldMouseY = <a class="code" href="classScript.html#a482eda1ba7b2c42605c8798ff7d67ab7">input</a>-&gt;m_mouseY + cameraPosition.y - 240 - 8;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        transform-&gt;setWorldPosition(worldMouseX, worldMouseY);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['deprecated_20list_2725',['Deprecated List',['../deprecated.html',1,'']]]
+  ['python_20api_20guide_572',['Python API Guide',['../python_api_guide.html',1,'']]],
+  ['python_20api_20reference_573',['Python API Reference',['../python_bindings.html',1,'']]]
 ];

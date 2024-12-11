@@ -90,9 +90,6 @@ $(document).ready(function(){initNavTree('classCamera.html',''); initResizable()
 </div><!--header-->
 <div class="contents">
 
-<p>Manages the camera's view in a game, handling its position in the world space.  
- <a href="classCamera.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="camera_8h_source.html">camera.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for Camera:</div>
@@ -101,7 +98,7 @@ $(document).ready(function(){initNavTree('classCamera.html',''); initResizable()
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCamera__inherit__graph.png" border="0" usemap="#aCamera_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCamera_inherit__map" id="aCamera_inherit__map">
-<area shape="rect" title="Manages the camera&#39;s view in a game, handling its position in the world space." alt="" coords="5,277,163,413"/>
+<area shape="rect" title=" " alt="" coords="5,277,163,413"/>
 <area shape="rect" href="classComponent.html" title="Base class for all game components, providing basic component functionalities." alt="" coords="17,5,151,229"/>
 </map>
 </div>
@@ -112,7 +109,7 @@ $(document).ready(function(){initNavTree('classCamera.html',''); initResizable()
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCamera__coll__graph.png" border="0" usemap="#aCamera_coll__map" alt="Collaboration graph"/></div>
 <map name="aCamera_coll__map" id="aCamera_coll__map">
-<area shape="rect" title="Manages the camera&#39;s view in a game, handling its position in the world space." alt="" coords="207,681,364,817"/>
+<area shape="rect" title=" " alt="" coords="207,681,364,817"/>
 <area shape="rect" href="classComponent.html" title="Base class for all game components, providing basic component functionalities." alt="" coords="5,395,139,604"/>
 <area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="105,5,252,317"/>
 <area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="163,380,317,619"/>
@@ -127,6 +124,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad1897942d0ccf91052386388a497349f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera.html#ad1897942d0ccf91052386388a497349f">~Camera</a> ()</td></tr>
 <tr class="separator:ad1897942d0ccf91052386388a497349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42cda7239981a5618660d04bd5893556"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera.html#a42cda7239981a5618660d04bd5893556">update</a> ()</td></tr>
+<tr class="memdesc:a42cda7239981a5618660d04bd5893556"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual method for updating the component's state, intended to be overridden by derived components.  <a href="classCamera.html#a42cda7239981a5618660d04bd5893556">More...</a><br /></td></tr>
 <tr class="separator:a42cda7239981a5618660d04bd5893556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e20f3c0b90ded30aac4e808560a3e56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera.html#a9e20f3c0b90ded30aac4e808560a3e56">getWorldPosition</a> ()</td></tr>
 <tr class="separator:a9e20f3c0b90ded30aac4e808560a3e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,7 +162,6 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a75ead862747f830f51334399609bdcde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVec2.html">Vec2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCamera.html#a75ead862747f830f51334399609bdcde">m_worldPosition</a></td></tr>
-<tr class="memdesc:a75ead862747f830f51334399609bdcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the world position of the camera.  <a href="classCamera.html#a75ead862747f830f51334399609bdcde">More...</a><br /></td></tr>
 <tr class="separator:a75ead862747f830f51334399609bdcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -178,10 +175,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a4f353aceb523c657566ca5ff085ce7b6 inherit pro_attribs_classComponent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Manages the camera's view in a game, handling its position in the world space. </p>
-<p>The <a class="el" href="classCamera.html" title="Manages the camera&#39;s view in a game, handling its position in the world space.">Camera</a> class extends <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a>, allowing it to be attached to game objects and manage the view based on the game object's transformations or other logic. </p>
-
-<p class="definition">Definition at line <a class="el" href="camera_8h_source.html#l00014">14</a> of file <a class="el" href="camera_8h_source.html">camera.h</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="camera_8h_source.html#l00006">6</a> of file <a class="el" href="camera_8h_source.html">camera.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a01f94c3543f56ede7af49dc778f19331"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01f94c3543f56ede7af49dc778f19331">&#9670;&nbsp;</a></span>Camera()</h2>
@@ -197,7 +192,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor for the <a class="el" href="classCamera.html" title="Manages the camera&#39;s view in a game, handling its position in the world space.">Camera</a> class. </p>
 
 <p class="definition">Definition at line <a class="el" href="camera_8cpp_source.html#l00009">9</a> of file <a class="el" href="camera_8cpp_source.html">camera.cpp</a>.</p>
 
@@ -217,7 +211,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Destructor for the <a class="el" href="classCamera.html" title="Manages the camera&#39;s view in a game, handling its position in the world space.">Camera</a> class. </p>
 
 <p class="definition">Definition at line <a class="el" href="camera_8cpp_source.html#l00013">13</a> of file <a class="el" href="camera_8cpp_source.html">camera.cpp</a>.</p>
 
@@ -238,7 +231,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Gets the current world position of the camera. </p><dl class="section return"><dt>Returns</dt><dd>The current world position as a <a class="el" href="structVec2.html" title="A structure to represent 2D vectors.">Vec2</a>. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="camera_8cpp_source.html#l00047">47</a> of file <a class="el" href="camera_8cpp_source.html">camera.cpp</a>.</p>
 
@@ -269,13 +261,6 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Sets the world position of the camera. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td>The x-coordinate of the new world position. </td></tr>
-    <tr><td class="paramname">y</td><td>The y-coordinate of the new world position. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 <p class="definition">Definition at line <a class="el" href="camera_8cpp_source.html#l00051">51</a> of file <a class="el" href="camera_8cpp_source.html">camera.cpp</a>.</p>
 
@@ -303,7 +288,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Updates the camera's position and behavior. This should be called each frame. </p>
+
+<p>Virtual method for updating the component's state, intended to be overridden by derived components. </p>
 
 <p>Reimplemented from <a class="el" href="classComponent.html#a78fe4950ee37b183fe863d2d6dc419e1">Component</a>.</p>
 
@@ -332,9 +318,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Stores the world position of the camera. </p>
-
-<p class="definition">Definition at line <a class="el" href="camera_8h_source.html#l00045">45</a> of file <a class="el" href="camera_8h_source.html">camera.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="camera_8h_source.html#l00017">17</a> of file <a class="el" href="camera_8h_source.html">camera.h</a>.</p>
 
 </div>
 </div>

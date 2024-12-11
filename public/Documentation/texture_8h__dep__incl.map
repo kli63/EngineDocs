@@ -1,5 +1,5 @@
 <map id="Engine/include/texture.h" name="Engine/include/texture.h">
-<area shape="rect" id="node1" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="1124,5,1304,32"/>
+<area shape="rect" id="node1" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="1124,5,1304,32"/>
 <area shape="rect" id="node2" href="$animation_8h.html" title="Defines the Animation class for handling sprite animations." alt="" coords="569,87,768,114"/>
 <area shape="rect" id="node3" href="$animationsmanager_8h.html" title=" " alt="" coords="189,177,452,203"/>
 <area shape="rect" id="node5" href="$gameobjectfactory_8cpp.html" title=" " alt="" coords="5,266,247,293"/>

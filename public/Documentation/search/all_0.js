@@ -1,12 +1,16 @@
 var searchData=
 [
-  ['binary_5freader_0',['binary_reader',['../classbasic__json.html#aa226ed5103dfd10e27e562d35a3a106b',1,'basic_json']]],
-  ['binary_5fwriter_1',['binary_writer',['../classbasic__json.html#a69d491bbda88ade6d3c7a2b11309e8bf',1,'basic_json']]],
-  ['exception_2',['exception',['../classbasic__json.html#abdcb15d025676b4d3db0f32a50f4393f',1,'basic_json']]],
-  ['iter_5fimpl_3',['iter_impl',['../classbasic__json.html#a842e5c7ca096025c18b11e715d3401f4',1,'basic_json']]],
-  ['json_5fliterals_4',['json_literals',['../namespaceliterals_1_1json__literals.html',1,'']]],
-  ['json_5fpointer_5',['json_pointer',['../classbasic__json.html#a43f901b14cf3f7135269b0c75c9ac233',1,'basic_json']]],
-  ['json_5fsax_5fdom_5fcallback_5fparser_6',['json_sax_dom_callback_parser',['../classbasic__json.html#a95574da8d12905ea99dc348934c837da',1,'basic_json']]],
-  ['json_5fsax_5fdom_5fparser_7',['json_sax_dom_parser',['../classbasic__json.html#a47aabb1eceae32e8a6e8e7f0ff34be60',1,'basic_json']]],
-  ['parser_8',['parser',['../classbasic__json.html#ac8f3125911eb018ef4ab00d879487baf',1,'basic_json']]]
+  ['addanimation_0',['addAnimation',['../classAnimationsManager.html#afa29c1004a7a867dd6ecb7ab6709e8e8',1,'AnimationsManager']]],
+  ['addchild_1',['addChild',['../classSceneNode.html#a093b9d3352bc8db3d8c3f104e4a1ced1',1,'SceneNode::addChild()'],['../classSceneTree.html#a8c1d2c5687732fe8e95169a409bfeb69',1,'SceneTree::addChild()']]],
+  ['addcomponent_2',['addComponent',['../classGameObject.html#ad15b0608530c8f2292d06f52b32261e0',1,'GameObject']]],
+  ['addscript_3',['addScript',['../classGameObject.html#af586a69635a1271ecf3cebf1d3637e1f',1,'GameObject']]],
+  ['advanceframe_4',['advanceFrame',['../structGameApplication.html#a3cc6204962241093ed944787cb062b66',1,'GameApplication']]],
+  ['animation_5',['Animation',['../classAnimation.html',1,'Animation'],['../classAnimation.html#a0a58e6699f8f22a621ebbc3627cbfb07',1,'Animation::Animation(SDL_Texture *texture)'],['../classAnimation.html#a83f0a16cef7117f187ad596de38dd9d6',1,'Animation::Animation()']]],
+  ['animation_2ecpp_6',['animation.cpp',['../animation_8cpp.html',1,'']]],
+  ['animation_2eh_7',['animation.h',['../animation_8h.html',1,'']]],
+  ['animationsmanager_8',['AnimationsManager',['../classAnimationsManager.html',1,'AnimationsManager'],['../classAnimationsManager.html#af2556f3bfe46efa2e15fdbc150d20c70',1,'AnimationsManager::AnimationsManager()']]],
+  ['animationsmanager_2ecpp_9',['animationsmanager.cpp',['../animationsmanager_8cpp.html',1,'']]],
+  ['animationsmanager_2eh_10',['animationsmanager.h',['../animationsmanager_8h.html',1,'']]],
+  ['animationstate_11',['AnimationState',['../classPlayerInputScript.html#a60375abceee17408db036108fbb03922',1,'PlayerInputScript']]],
+  ['app_2ecpp_12',['app.cpp',['../app_8cpp.html',1,'']]]
 ];

@@ -20,7 +20,7 @@
 <area shape="rect" id="node15" href="$ranged__weapon__script_8cpp.html" title=" " alt="" coords="2997,319,3195,360"/>
 <area shape="rect" id="node18" href="$collision__script_8h.html" title=" " alt="" coords="142,229,317,271"/>
 <area shape="rect" id="node19" href="$gameobjectfactory_8cpp.html" title=" " alt="" coords="2126,415,2367,442"/>
-<area shape="rect" id="node22" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="2157,155,2337,181"/>
+<area shape="rect" id="node22" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="2157,155,2337,181"/>
 <area shape="rect" id="node23" href="$animation_8h.html" title="Defines the Animation class for handling sprite animations." alt="" coords="2309,237,2507,263"/>
 <area shape="rect" id="node24" href="$animationsmanager_8h.html" title=" " alt="" coords="2310,326,2573,353"/>
 <area shape="rect" id="node27" href="$texture_8cpp.html" title=" " alt="" coords="2532,229,2705,271"/>

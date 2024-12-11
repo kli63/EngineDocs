@@ -141,25 +141,20 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a11be58b869975806f2ff5a627770fa2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#a11be58b869975806f2ff5a627770fa2e">~SceneNode</a> ()</td></tr>
-<tr class="memdesc:a11be58b869975806f2ff5a627770fa2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor, ensures proper cleanup of node resources. This destructor is private to ensure that <a class="el" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy.">SceneNode</a> objects are managed correctly through smart pointers or specific management functions in the <a class="el" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations.">SceneTree</a> class.  <a href="classSceneNode.html#a11be58b869975806f2ff5a627770fa2e">More...</a><br /></td></tr>
+<tr class="memdesc:a11be58b869975806f2ff5a627770fa2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor, ensures proper cleanup of node resources.  <a href="classSceneNode.html#a11be58b869975806f2ff5a627770fa2e">More...</a><br /></td></tr>
 <tr class="separator:a11be58b869975806f2ff5a627770fa2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4d147c9644382cc07a329bc1eab0dc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSceneNode.html">SceneNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#a4d147c9644382cc07a329bc1eab0dc80">m_parent</a></td></tr>
-<tr class="memdesc:a4d147c9644382cc07a329bc1eab0dc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the parent node in the scene graph.  <a href="classSceneNode.html#a4d147c9644382cc07a329bc1eab0dc80">More...</a><br /></td></tr>
 <tr class="separator:a4d147c9644382cc07a329bc1eab0dc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f0e6e5bf766631efdef77f4648902d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classGameObject.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#a24f0e6e5bf766631efdef77f4648902d">m_gameObject</a></td></tr>
-<tr class="memdesc:a24f0e6e5bf766631efdef77f4648902d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the <a class="el" href="classGameObject.html" title="Core class representing an entity in the game world.">GameObject</a> this node represents.  <a href="classSceneNode.html#a24f0e6e5bf766631efdef77f4648902d">More...</a><br /></td></tr>
 <tr class="separator:a24f0e6e5bf766631efdef77f4648902d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a48f7572ae756860a85d34f40e30a7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classSceneNode.html">SceneNode</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#ac1a48f7572ae756860a85d34f40e30a7">m_children</a></td></tr>
-<tr class="memdesc:ac1a48f7572ae756860a85d34f40e30a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of child nodes.  <a href="classSceneNode.html#ac1a48f7572ae756860a85d34f40e30a7">More...</a><br /></td></tr>
 <tr class="separator:ac1a48f7572ae756860a85d34f40e30a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64b7a9eb3b7913b8512ce8425ae9bac3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#a64b7a9eb3b7913b8512ce8425ae9bac3">m_destroy</a> = false</td></tr>
-<tr class="memdesc:a64b7a9eb3b7913b8512ce8425ae9bac3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to indicate whether this node is scheduled for destruction.  <a href="classSceneNode.html#a64b7a9eb3b7913b8512ce8425ae9bac3">More...</a><br /></td></tr>
 <tr class="separator:a64b7a9eb3b7913b8512ce8425ae9bac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02da4dacadb371d090f9e61bbf934fdb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSceneNode.html#a02da4dacadb371d090f9e61bbf934fdb">m_isBackground</a> = false</td></tr>
-<tr class="memdesc:a02da4dacadb371d090f9e61bbf934fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to indicate whether this node is part of the background.  <a href="classSceneNode.html#a02da4dacadb371d090f9e61bbf934fdb">More...</a><br /></td></tr>
 <tr class="separator:a02da4dacadb371d090f9e61bbf934fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -226,7 +221,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Destructor, ensures proper cleanup of node resources. This destructor is private to ensure that <a class="el" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy.">SceneNode</a> objects are managed correctly through smart pointers or specific management functions in the <a class="el" href="classSceneTree.html" title="Manages a tree structure of SceneNodes, facilitating scene graph operations.">SceneTree</a> class. </p>
+<p>Destructor, ensures proper cleanup of node resources. </p>
 
 <p class="definition">Definition at line <a class="el" href="scene_8cpp_source.html#l00020">20</a> of file <a class="el" href="scene_8cpp_source.html">scene.cpp</a>.</p>
 
@@ -508,8 +503,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>List of child nodes. </p>
-
 <p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00088">88</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
 </div>
@@ -533,8 +526,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Flag to indicate whether this node is scheduled for destruction. </p>
 
 <p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00090">90</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
@@ -560,8 +551,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Pointer to the <a class="el" href="classGameObject.html" title="Core class representing an entity in the game world.">GameObject</a> this node represents. </p>
-
 <p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00087">87</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
 </div>
@@ -586,8 +575,6 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Flag to indicate whether this node is part of the background. </p>
-
 <p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00091">91</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 
 </div>
@@ -611,8 +598,6 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Pointer to the parent node in the scene graph. </p>
 
 <p class="definition">Definition at line <a class="el" href="scene_8h_source.html#l00086">86</a> of file <a class="el" href="scene_8h_source.html">scene.h</a>.</p>
 

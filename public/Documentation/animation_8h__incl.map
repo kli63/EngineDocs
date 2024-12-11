@@ -1,6 +1,6 @@
 <map id="Engine/include/animation.h" name="Engine/include/animation.h">
 <area shape="rect" id="node1" title="Defines the Animation class for handling sprite animations." alt="" coords="192,5,391,32"/>
-<area shape="rect" id="node2" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="251,80,332,107"/>
+<area shape="rect" id="node2" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="251,80,332,107"/>
 <area shape="rect" id="node3" title=" " alt="" coords="27,304,123,331"/>
 <area shape="rect" id="node4" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="481,304,587,331"/>
 <area shape="rect" id="node6" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="242,155,341,181"/>

@@ -1,6 +1,5 @@
 var dir_1dfe4a86cee15d5d6902f8c724dcf913 =
 [
-    [ "nlohmann", "dir_e37586caf80f2b550f48d19b8fd7396f.html", "dir_e37586caf80f2b550f48d19b8fd7396f" ],
     [ "animation.h", "animation_8h.html", [
       [ "Animation", "classAnimation.html", "classAnimation" ]
     ] ],

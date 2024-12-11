@@ -56,17 +56,6 @@ var NAVTREE =
       [ "Getting Started", "python_api_guide.html#getting_started", null ],
       [ "Examples", "python_api_guide.html#examples", null ]
     ] ],
-    [ "Deprecated List", "deprecated.html", null ],
-    [ "Packages", "namespaces.html", [
-      [ "Packages", "namespaces.html", "namespaces_dup" ],
-      [ "Package Functions", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ]
-      ] ]
-    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -74,8 +63,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", "functions_type" ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
@@ -84,10 +72,8 @@ var NAVTREE =
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", "globals_dup" ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", "globals_defs" ]
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -95,17 +81,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"abi__macros_8hpp.html",
-"classSceneManager.html#a1e07848c9864e4d28e61495ba178b28b",
-"classbasic__json.html#a80a229dbc84c1334171ce9c49c873c56",
-"classdetail_1_1binary__writer.html#aaf86b30c0beb86fafdb0cad5573ce753",
-"classdetail_1_1json__sax__dom__parser.html#a8a7ba3deeb48e47b4a7705602c9f8807",
-"classjson__pointer.html#af8c9bbaed20be0634a2e522f54265d96",
-"hedley_8hpp.html#a2c4e6a04293aaf333a31698dea661b3b",
-"macro__scope_8hpp.html#a985d3b82445302c57257f6432f261fe9",
-"ordered__map_8hpp.html",
-"structdetail_1_1is__compatible__integer__type__impl_3_01RealIntegerType_00_01CompatibleNumberInt5b484fcfc2d1ae63b1211da72eabe33b.html#a9a9e09e41a061d0ede6046201339e2e8",
-"to__chars_8hpp.html#a73a15efcb5c2157ea0e1375b98ef0e83"
+"animation_8cpp.html",
+"classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298",
+"texture_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

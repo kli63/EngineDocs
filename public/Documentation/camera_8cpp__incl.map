@@ -1,52 +1,20 @@
 <map id="Engine/src/components/camera.cpp" name="Engine/src/components/camera.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="158,5,331,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="34,95,114,121"/>
-<area shape="rect" id="node3" href="$camera_8h.html" title=" " alt="" coords="39,169,122,196"/>
-<area shape="rect" id="node7" href="$health_8h.html" title="Defines the Health class, a component for managing the health of game objects." alt="" coords="146,169,221,196"/>
-<area shape="rect" id="node8" href="$scenemanager_8h.html" title="Defines the SceneManager class for managing scenes in the game." alt="" coords="501,95,631,121"/>
-<area shape="rect" id="node48" href="$gameobject_8h.html" title=" " alt="" coords="397,169,508,196"/>
-<area shape="rect" id="node50" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="239,95,338,121"/>
-<area shape="rect" id="node4" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="130,251,237,278"/>
-<area shape="rect" id="node6" href="$vec2_8h.html" title="Definition of Vec2 structure for 2D vector operations." alt="" coords="5,251,71,278"/>
-<area shape="rect" id="node5" title=" " alt="" coords="1901,698,1959,725"/>
-<area shape="rect" id="node9" title=" " alt="" coords="533,251,599,278"/>
-<area shape="rect" id="node10" href="$scene_8h.html" title="Defines the SceneNode and SceneTree classes for managing game objects within scenes." alt="" coords="927,341,999,367"/>
-<area shape="rect" id="node14" title=" " alt="" coords="261,251,357,278"/>
-<area shape="rect" id="node15" href="$json_8hpp.html" title=" " alt="" coords="3357,169,3503,196"/>
-<area shape="rect" id="node11" title=" " alt="" coords="2229,430,2316,457"/>
-<area shape="rect" id="node12" title=" " alt="" coords="1856,609,1919,635"/>
-<area shape="rect" id="node13" title=" " alt="" coords="1725,519,1849,546"/>
-<area shape="rect" id="node16" title=" " alt="" coords="1925,519,2010,546"/>
-<area shape="rect" id="node17" title=" " alt="" coords="4119,787,4189,814"/>
-<area shape="rect" id="node18" title=" " alt="" coords="4253,519,4364,546"/>
-<area shape="rect" id="node19" title=" " alt="" coords="1130,519,1194,546"/>
-<area shape="rect" id="node20" title=" " alt="" coords="4468,609,4539,635"/>
-<area shape="rect" id="node21" title=" " alt="" coords="3087,609,3165,635"/>
-<area shape="rect" id="node22" title=" " alt="" coords="3679,869,3739,896"/>
-<area shape="rect" id="node23" href="$adl__serializer_8hpp.html" title=" " alt="" coords="3814,341,4019,367"/>
-<area shape="rect" id="node24" href="$from__json_8hpp.html" title=" " alt="" coords="3442,423,3653,464"/>
-<area shape="rect" id="node25" href="$exceptions_8hpp.html" title=" " alt="" coords="2389,519,2620,546"/>
-<area shape="rect" id="node26" href="$string__escape_8hpp.html" title=" " alt="" coords="1125,601,1295,643"/>
-<area shape="rect" id="node27" href="$macro__scope_8hpp.html" title=" " alt="" coords="3267,780,3441,821"/>
-<area shape="rect" id="node28" href="$cpp__future_8hpp.html" title=" " alt="" coords="3949,691,4116,732"/>
-<area shape="rect" id="node29" href="$type__traits_8hpp.html" title=" " alt="" coords="3797,601,3964,643"/>
-<area shape="rect" id="node30" href="$string__concat_8hpp.html" title=" " alt="" coords="1608,601,1777,643"/>
-<area shape="rect" id="node31" href="$to__json_8hpp.html" title=" " alt="" coords="3866,423,4077,464"/>
-<area shape="rect" id="node32" href="$iteration__proxy_8hpp.html" title=" " alt="" coords="5055,512,5242,553"/>
-<area shape="rect" id="node33" href="$byte__container__with__subtype_8hpp.html" title=" " alt="" coords="5888,691,6076,732"/>
-<area shape="rect" id="node34" href="$hash_8hpp.html" title=" " alt="" coords="3493,341,3684,367"/>
-<area shape="rect" id="node35" href="$binary__reader_8hpp.html" title=" " alt="" coords="1989,333,2154,375"/>
-<area shape="rect" id="node36" href="$input__adapters_8hpp.html" title=" " alt="" coords="3202,512,3367,553"/>
-<area shape="rect" id="node37" href="$lexer_8hpp.html" title=" " alt="" coords="2999,423,3165,464"/>
-<area shape="rect" id="node38" href="$parser_8hpp.html" title=" " alt="" coords="2462,333,2627,375"/>
-<area shape="rect" id="node39" href="$internal__iterator_8hpp.html" title=" " alt="" coords="4743,512,4930,553"/>
-<area shape="rect" id="node40" href="$primitive__iterator_8hpp.html" title=" " alt="" coords="4693,601,4879,643"/>
-<area shape="rect" id="node41" href="$iter__impl_8hpp.html" title=" " alt="" coords="4537,423,4723,464"/>
-<area shape="rect" id="node42" href="$json__reverse__iterator_8hpp.html" title=" " alt="" coords="5520,512,5711,553"/>
-<area shape="rect" id="node43" href="$json__custom__base__class_8hpp.html" title=" " alt="" coords="3811,244,3993,285"/>
-<area shape="rect" id="node44" href="$json__pointer_8hpp.html" title=" " alt="" coords="1321,423,1480,464"/>
-<area shape="rect" id="node45" href="$json__ref_8hpp.html" title=" " alt="" coords="4256,423,4415,464"/>
-<area shape="rect" id="node46" href="$binary__writer_8hpp.html" title=" " alt="" coords="1499,244,1673,285"/>
-<area shape="rect" id="node47" href="$output__adapters_8hpp.html" title=" " alt="" coords="2696,423,2871,464"/>
-<area shape="rect" id="node49" href="$script_8h.html" title="Defines the Script class for attaching behavior to game objects." alt="" coords="475,341,545,367"/>
+<area shape="rect" id="node1" title=" " alt="" coords="154,5,327,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="30,95,110,121"/>
+<area shape="rect" id="node3" href="$camera_8h.html" title=" " alt="" coords="35,169,118,196"/>
+<area shape="rect" id="node7" href="$health_8h.html" title="Defines the Health class, a component for managing the health of game objects." alt="" coords="142,169,217,196"/>
+<area shape="rect" id="node8" href="$scenemanager_8h.html" title="Defines the SceneManager class for managing scenes in the game." alt="" coords="537,95,667,121"/>
+<area shape="rect" id="node16" href="$gameobject_8h.html" title=" " alt="" coords="393,169,504,196"/>
+<area shape="rect" id="node18" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="235,95,334,121"/>
+<area shape="rect" id="node4" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="182,244,289,271"/>
+<area shape="rect" id="node6" href="$vec2_8h.html" title="Definition of Vec2 structure for 2D vector operations." alt="" coords="5,244,71,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="449,319,507,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="626,244,693,271"/>
+<area shape="rect" id="node10" href="$scene_8h.html" title="Defines the SceneNode and SceneTree classes for managing game objects within scenes." alt="" coords="778,244,850,271"/>
+<area shape="rect" id="node14" title=" " alt="" coords="313,244,409,271"/>
+<area shape="rect" id="node15" title=" " alt="" coords="529,169,675,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="647,319,733,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="551,319,613,345"/>
+<area shape="rect" id="node13" title=" " alt="" coords="757,319,881,345"/>
+<area shape="rect" id="node17" href="$script_8h.html" title="Defines the Script class for attaching behavior to game objects." alt="" coords="437,244,508,271"/>
 </map>
