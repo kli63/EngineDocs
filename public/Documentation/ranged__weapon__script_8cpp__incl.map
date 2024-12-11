@@ -19,7 +19,7 @@
 <area shape="rect" id="node12" title=" " alt="" coords="813,468,899,495"/>
 <area shape="rect" id="node13" title=" " alt="" coords="923,468,1047,495"/>
 <area shape="rect" id="node17" href="$vec2_8h.html" title="Definition of Vec2 structure for 2D vector operations." alt="" coords="357,393,422,420"/>
-<area shape="rect" id="node20" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="253,169,334,196"/>
+<area shape="rect" id="node20" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="253,169,334,196"/>
 <area shape="rect" id="node22" href="$camera_8h.html" title=" " alt="" coords="239,319,321,345"/>
 <area shape="rect" id="node23" title=" " alt="" coords="497,319,644,345"/>
 </map>

@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" title=" " alt="" coords="238,80,318,107"/>
 <area shape="rect" id="node3" href="$gameobject_8h.html" title=" " alt="" coords="345,229,456,256"/>
 <area shape="rect" id="node13" href="$scenemanager_8h.html" title="Defines the SceneManager class for managing scenes in the game." alt="" coords="239,155,368,181"/>
-<area shape="rect" id="node17" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="547,80,628,107"/>
+<area shape="rect" id="node17" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="547,80,628,107"/>
 <area shape="rect" id="node4" title=" " alt="" coords="294,304,361,331"/>
 <area shape="rect" id="node5" title=" " alt="" coords="316,379,379,405"/>
 <area shape="rect" id="node6" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="651,304,758,331"/>

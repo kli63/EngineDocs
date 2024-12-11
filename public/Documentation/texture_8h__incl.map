@@ -1,5 +1,5 @@
 <map id="Engine/include/texture.h" name="Engine/include/texture.h">
-<area shape="rect" id="node1" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="201,5,381,32"/>
+<area shape="rect" id="node1" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="201,5,381,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="27,229,123,256"/>
 <area shape="rect" id="node3" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="481,229,587,256"/>
 <area shape="rect" id="node5" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="242,80,341,107"/>

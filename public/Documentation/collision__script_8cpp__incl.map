@@ -5,7 +5,7 @@
 <area shape="rect" id="node6" href="$collide_8h.html" title="Defines the Collide class, a component for managing collision detection and response." alt="" coords="790,244,867,271"/>
 <area shape="rect" id="node10" href="$scenemanager_8h.html" title="Defines the SceneManager class for managing scenes in the game." alt="" coords="173,169,303,196"/>
 <area shape="rect" id="node18" href="$gameobject_8h.html" title=" " alt="" coords="295,244,405,271"/>
-<area shape="rect" id="node19" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="548,95,629,121"/>
+<area shape="rect" id="node19" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="548,95,629,121"/>
 <area shape="rect" id="node4" href="$script_8h.html" title="Defines the Script class for attaching behavior to game objects." alt="" coords="436,319,507,345"/>
 <area shape="rect" id="node5" title=" " alt="" coords="429,393,487,420"/>
 <area shape="rect" id="node7" href="$component_8h.html" title="Defines the Component base class for all components in the game engine." alt="" coords="775,319,882,345"/>

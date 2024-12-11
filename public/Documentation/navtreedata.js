@@ -51,10 +51,12 @@ var NAVTREE =
         [ "GameApplication", "python_bindings.html#game_app", null ]
       ] ]
     ] ],
-    [ "Python API Guide", "python_api_guide.html", [
-      [ "Introduction", "python_api_guide.html#intro", null ],
-      [ "Getting Started", "python_api_guide.html#getting_started", null ],
-      [ "Examples", "python_api_guide.html#examples", null ]
+    [ "Packages", "namespaces.html", [
+      [ "Packages", "namespaces.html", "namespaces_dup" ],
+      [ "Package Functions", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -83,7 +85,7 @@ var NAVTREEINDEX =
 [
 "animation_8cpp.html",
 "classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298",
-"texture_8h.html"
+"structVec2.html#a76080feed7005893ecc634f903cfbae0"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

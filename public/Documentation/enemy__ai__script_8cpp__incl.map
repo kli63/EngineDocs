@@ -7,7 +7,7 @@
 <area shape="rect" id="node18" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="787,169,885,196"/>
 <area shape="rect" id="node19" href="$health_8h.html" title="Defines the Health class, a component for managing the health of game objects." alt="" coords="391,95,465,121"/>
 <area shape="rect" id="node20" href="$collide_8h.html" title="Defines the Collide class, a component for managing collision detection and response." alt="" coords="888,244,965,271"/>
-<area shape="rect" id="node21" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="710,95,791,121"/>
+<area shape="rect" id="node21" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="710,95,791,121"/>
 <area shape="rect" id="node4" href="$script_8h.html" title="Defines the Script class for attaching behavior to game objects." alt="" coords="194,319,265,345"/>
 <area shape="rect" id="node5" title=" " alt="" coords="200,393,259,420"/>
 <area shape="rect" id="node7" title=" " alt="" coords="309,319,376,345"/>

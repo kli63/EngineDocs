@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$gameobject_8h.html" title=" " alt="" coords="333,229,443,256"/>
 <area shape="rect" id="node13" href="$transform_8h.html" title="Provides the Transform component for positioning and sizing game objects." alt="" coords="348,155,447,181"/>
 <area shape="rect" id="node15" href="$resourcemanager_8h.html" title="Manages resources such as textures, fonts, and potentially sounds for a game engine." alt="" coords="943,229,1089,256"/>
-<area shape="rect" id="node17" href="$texture_8h.html" title="Defines the Texture component for managing textures in the Game Engine." alt="" coords="453,80,534,107"/>
+<area shape="rect" id="node17" href="$texture_8h.html" title="Defines the Texture component for managing textures within the Game Engine, encapsulating SDL texture..." alt="" coords="453,80,534,107"/>
 <area shape="rect" id="node18" href="$scenemanager_8h.html" title="Defines the SceneManager class for managing scenes in the game." alt="" coords="610,155,739,181"/>
 <area shape="rect" id="node21" href="$gameobjectfactory_8h.html" title=" " alt="" coords="5,155,160,181"/>
 <area shape="rect" id="node22" title=" " alt="" coords="815,80,889,107"/>

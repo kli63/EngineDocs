@@ -59,7 +59,7 @@ var searchData=
   ['m_5ftotalobjects_165',['m_totalObjects',['../classSceneManager.html#acc86194872d43bbbcbb8b245d3fbb096',1,'SceneManager']]],
   ['m_5fwindow_166',['m_window',['../structGameApplication.html#a0a741235dbf40f321e198b84e4522a24',1,'GameApplication']]],
   ['m_5fworldposition_167',['m_worldPosition',['../classCamera.html#a75ead862747f830f51334399609bdcde',1,'Camera']]],
-  ['main_168',['main',['../app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'app.cpp']]],
+  ['main_168',['main',['../namespacerun.html#a9c5af1e168e33914b2ff3996f6a22987',1,'run.main()'],['../app_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main():&#160;app.cpp']]],
   ['mcollide_169',['mCollide',['../classCollide.html#a1330d49e5dff6eca1b2d1a4783f8f970',1,'Collide']]],
   ['moffsetx_170',['mOffsetX',['../classCollide.html#a3feec06f24cde65a78ed4479a36e92f6',1,'Collide']]],
   ['moffsety_171',['mOffsetY',['../classCollide.html#a7d3787a7e3df64d4a0a9aa911678c074',1,'Collide']]],
