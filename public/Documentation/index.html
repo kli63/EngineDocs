@@ -85,62 +85,21 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="title">CPSC 411 Game Engine </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A component-based game engine with Python bindings</p>
-<h1><a class="anchor" id="hierarchy"></a>
-Class Hierarchy</h1>
-<p>The following diagram shows the complete class hierarchy of the engine:</p>
-<div class="dotgraph">
-<img src="dot_inline_dotgraph_1.png" alt="dot_inline_dotgraph_1.png" border="0" usemap="#dot_inline_dotgraph_1.map"/>
-<map name="dot_inline_dotgraph_1.map" id="dot_inline_dotgraph_1.map"><area shape="rect" href="classComponent.html" title="Component" alt="" coords="248,5,345,53"/>
-<area shape="rect" href="classTransform.html" title="Transform" alt="" coords="5,101,92,149"/>
-<area shape="rect" href="classTexture.html" title="Texture" alt="" coords="117,101,189,149"/>
-<area shape="rect" href="classCollide.html" title="Collide" alt="" coords="213,101,285,149"/>
-<area shape="rect" href="classInput.html" title="Input" alt="" coords="309,101,381,149"/>
-<area shape="rect" href="classCamera.html" title="Camera" alt="" coords="405,101,479,149"/>
-<area shape="rect" href="classHealth.html" title="Health" alt="" coords="503,101,575,149"/>
-<area shape="rect" href="classAnimation.html" title="Animation" alt="" coords="36,197,125,245"/>
-<area shape="rect" href="classAnimationsManager.html" title="AnimationsManager" alt="" coords="149,197,303,245"/>
-<area shape="rect" href="classScript.html" title="Script" alt="" coords="945,5,1017,53"/>
-<area shape="rect" href="classPlayerInputScript.html" title="PlayerInputScript" alt="" coords="599,101,733,149"/>
-<area shape="rect" href="classProjectileScript.html" title="ProjectileScript" alt="" coords="757,101,877,149"/>
-<area shape="rect" href="classRangedWeaponScript.html" title="RangedWeaponScript" alt="" coords="901,101,1061,149"/>
-<area shape="rect" href="classCollisionScript.html" title="CollisionScript" alt="" coords="1085,101,1199,149"/>
-<area shape="rect" href="classEnemyAIScript.html" title="EnemyAIScript" alt="" coords="1223,101,1341,149"/>
-</map>
-</div>
+<div class="textblock"><p>A component-based game engine</p>
 <h1><a class="anchor" id="overview"></a>
 Overview</h1>
-<p>This game engine features:</p><ul>
-<li>Component-based architecture</li>
-<li>Scene graph management</li>
-<li>Python scripting interface</li>
-<li><a class="el" href="classInput.html" title="Component for handling and storing the state of input devices.">Input</a> handling &amp; collision detection</li>
-<li>Sprite animation system</li>
+<p>The CPSC 411 Game Engine provides a robust platform for building various types of games, focusing on:</p><ul>
+<li>Component-based architecture: Organizes code and functionality into reusable components.</li>
+<li>Scene graph management: Efficiently manages hierarchical relationships between objects in a scene.</li>
+<li><a class="el" href="classInput.html" title="Component for handling and storing the state of input devices.">Input</a> handling &amp; collision detection: Processes player inputs and manages collisions within the game world.</li>
+<li>Sprite animation system: Supports the creation and management of complex animations to enhance visual appeal.</li>
 </ul>
+<p>Python bindings are currently in beta testing, offering scripting capabilities to extend and customize game functionalities further.</p>
 <h1><a class="anchor" id="navigation"></a>
 Documentation Sections</h1>
 <ul>
 <li>Python API Documentation - Complete Python API reference</li>
-<li>Python Integration Guide - Guide for using the engine with Python</li>
-</ul>
-<h1><a class="anchor" id="class_descriptions"></a>
-Class Descriptions</h1>
-<p>Detailed descriptions of the classes involved in the game engine:</p><ul>
-<li><a class="el" href="classComponent.html">Component</a>: Base class for all game components, providing basic component functionalities.</li>
-<li><a class="el" href="classCamera.html">Camera</a>: Manages the camera's view in a game, handling its position in the world space.</li>
-<li><a class="el" href="classCollide.html">Collide</a>: <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle collisions between game objects.</li>
-<li><a class="el" href="classHealth.html">Health</a>: A component for managing health of game objects.</li>
-<li><a class="el" href="classInput.html">Input</a>: <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> for handling and storing the state of input devices.</li>
-<li><a class="el" href="classTexture.html">Texture</a>: <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> for handling textures in the game engine.</li>
-<li><a class="el" href="classAnimation.html">Animation</a>: <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> to handle animation of game objects, derived from <a class="el" href="classTexture.html" title="Component for handling textures in the game engine.">Texture</a>.</li>
-<li><a class="el" href="classAnimationsManager.html">AnimationsManager</a>: Manages a collection of animations for a game entity, with functionality to play, pause, and switch between animations.</li>
-<li><a class="el" href="classTransform.html">Transform</a>: <a class="el" href="classComponent.html" title="Base class for all game components, providing basic component functionalities.">Component</a> for handling the transformation of game objects.</li>
-<li><a class="el" href="classScript.html">Script</a>: Base class for scripting custom behaviors in game objects.</li>
-<li><a class="el" href="classPlayerInputScript.html">PlayerInputScript</a>: Handles player interactions, movements, and animation states based on game input.</li>
-<li><a class="el" href="classProjectileScript.html">ProjectileScript</a>: Controls the movement of a projectile.</li>
-<li><a class="el" href="classRangedWeaponScript.html">RangedWeaponScript</a>: Controls the behavior of ranged weapons such as bows or guns.</li>
-<li><a class="el" href="classCollisionScript.html">CollisionScript</a>: <a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> to manage collisions between game objects.</li>
-<li><a class="el" href="classEnemyAIScript.html">EnemyAIScript</a>: <a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> to manage enemy artificial intelligence. </li>
+<li>Python Integration Guide - Guide for using the engine with Python </li>
 </ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

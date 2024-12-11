@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"ranged__weapon__script_8cpp_source.html":[4,0,1,2,1,5],
-"ranged__weapon__script_8h.html":[4,0,1,1,15],
 "ranged__weapon__script_8h_source.html":[4,0,1,1,15],
 "resourcemanager_8cpp.html":[4,0,1,2,7],
 "resourcemanager_8cpp_source.html":[4,0,1,2,7],

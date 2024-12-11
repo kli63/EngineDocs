@@ -26,9 +26,7 @@ var NAVTREE =
 [
   [ "CSPC411 - Building Game Engines Final Project", "index.html", [
     [ "CPSC 411 Game Engine", "index.html", [
-      [ "Class Hierarchy", "index.html#hierarchy", null ],
-      [ "Documentation Sections", "index.html#navigation", null ],
-      [ "Class Descriptions", "index.html#class_descriptions", null ]
+      [ "Documentation Sections", "index.html#navigation", null ]
     ] ],
     [ "Engine Python Bindings", "Game.html", [
       [ "Introduction", "Game.html#intro_sec", null ],
@@ -146,7 +144,7 @@ var NAVTREEINDEX =
 [
 "Game.html",
 "classProjectileScript.html",
-"ranged__weapon__script_8cpp_source.html"
+"ranged__weapon__script_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

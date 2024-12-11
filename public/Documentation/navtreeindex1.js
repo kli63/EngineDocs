@@ -162,8 +162,8 @@ var NAVTREEINDEX1 =
 "enemy__ai__script_8h.html":[4,0,1,1,7],
 "enemy__ai__script_8h_source.html":[4,0,1,1,7],
 "files.html":[4,0],
-"functions.html":[3,3,0],
 "functions.html":[3,3,0,0],
+"functions.html":[3,3,0],
 "functions_c.html":[3,3,0,1],
 "functions_d.html":[3,3,0,2],
 "functions_e.html":[3,3,0,3],
@@ -227,9 +227,7 @@ var NAVTREEINDEX1 =
 "hierarchy.html":[3,2],
 "index.html":[],
 "index.html":[0],
-"index.html#class_descriptions":[0,2],
-"index.html#hierarchy":[0,0],
-"index.html#navigation":[0,1],
+"index.html#navigation":[0,0],
 "input_8cpp.html":[4,0,1,2,0,5],
 "input_8cpp_source.html":[4,0,1,2,0,5],
 "input_8h.html":[4,0,1,1,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "python__api_8h_source.html":[4,0,1,0,0],
 "python__guide_8h.html":[4,0,1,0,1],
 "python__guide_8h_source.html":[4,0,1,0,1],
-"ranged__weapon__script_8cpp.html":[4,0,1,2,1,5]
+"ranged__weapon__script_8cpp.html":[4,0,1,2,1,5],
+"ranged__weapon__script_8cpp_source.html":[4,0,1,2,1,5],
+"ranged__weapon__script_8h.html":[4,0,1,1,15]
 };
