@@ -1,5 +1,5 @@
 <map id="Engine/include/health.h" name="Engine/include/health.h">
-<area shape="rect" id="node1" title="Defines the health class, a component for managing health of enemies and players." alt="" coords="323,5,498,32"/>
+<area shape="rect" id="node1" title="Defines the Health class, a component for managing the health of game objects." alt="" coords="323,5,498,32"/>
 <area shape="rect" id="node2" href="$health_8cpp.html" title=" " alt="" coords="5,80,179,121"/>
 <area shape="rect" id="node3" href="$gameapp_8cpp.html" title=" " alt="" coords="203,87,384,114"/>
 <area shape="rect" id="node4" href="$gameobjectfactory_8cpp.html" title=" " alt="" coords="409,87,650,114"/>

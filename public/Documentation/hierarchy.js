@@ -12,7 +12,6 @@ var hierarchy =
     [ "GameApplication", "structGameApplication.html", null ],
     [ "GameObject", "classGameObject.html", null ],
     [ "GameObjectFactory", "classGameObjectFactory.html", null ],
-    [ "health", "classhealth.html", null ],
     [ "ResourceManager", "classResourceManager.html", null ],
     [ "SceneManager", "classSceneManager.html", null ],
     [ "SceneNode", "classSceneNode.html", null ],

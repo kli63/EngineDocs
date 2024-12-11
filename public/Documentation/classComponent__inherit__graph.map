@@ -1,7 +1,7 @@
 <map id="Component" name="Component">
 <area shape="rect" id="node1" title="Base class for all game components, providing basic component functionalities." alt="" coords="387,5,520,229"/>
 <area shape="rect" id="node2" href="$classCollide.html" title="Component to handle collisions between game objects." alt="" coords="5,277,176,604"/>
-<area shape="rect" id="node3" href="$classHealth.html" title=" " alt="" coords="201,380,341,501"/>
+<area shape="rect" id="node3" href="$classHealth.html" title="A component for managing health of game objects." alt="" coords="201,380,341,501"/>
 <area shape="rect" id="node4" href="$classInput.html" title="Component for handling and storing the state of input devices." alt="" coords="365,321,541,560"/>
 <area shape="rect" id="node5" href="$classTexture.html" title=" " alt="" coords="565,285,763,597"/>
 <area shape="rect" id="node7" href="$classTransform.html" title="Component for handling the transformation of game objects." alt="" coords="787,292,968,589"/>

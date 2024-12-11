@@ -14,7 +14,7 @@ var searchData=
   ['getcomponent_43',['getComponent',['../classGameObject.html#a7a91297b8801e1c8ce10462c754c573a',1,'GameObject']]],
   ['getcurrentframe_44',['getCurrentFrame',['../classAnimation.html#a77bf362daa5b23db4f83106299d94d01',1,'Animation']]],
   ['getgameobject_45',['getGameObject',['../classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298',1,'SceneNode']]],
-  ['gethealth_46',['getHealth',['../classHealth.html#adc5f045b9f6937c592e196821d7a6878',1,'Health']]],
+  ['gethealth_46',['getHealth',['../classHealth.html#ac9c0efcd660fee0a0585d7b71ab92c80',1,'Health']]],
   ['getid_47',['getId',['../classGameObject.html#ad5976d3f429a2df8f7c8d6f42b72500a',1,'GameObject']]],
   ['getinstance_48',['getInstance',['../classResourceManager.html#a8fd3155e6658c0bdc3b3f6f81443e374',1,'ResourceManager::getInstance()'],['../classSceneManager.html#a05b9c51f731a9da497ad1c3013eeaacc',1,'SceneManager::getInstance()']]],
   ['getkeyscollected_49',['getKeysCollected',['../classPlayerInputScript.html#a1d5e6aaae3e9bfe08caca5ff9389a4c4',1,'PlayerInputScript']]],
