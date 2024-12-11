@@ -227,6 +227,7 @@ var NAVTREEINDEX1 =
 "hierarchy.html":[3,2],
 "index.html":[],
 "index.html":[0],
+"index.html#class_descriptions":[0,2],
 "index.html#hierarchy":[0,0],
 "index.html#navigation":[0,1],
 "input_8cpp.html":[4,0,1,2,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "python__api_8h_source.html":[4,0,1,0,0],
 "python__guide_8h.html":[4,0,1,0,1],
 "python__guide_8h_source.html":[4,0,1,0,1],
-"ranged__weapon__script_8cpp.html":[4,0,1,2,1,5],
-"ranged__weapon__script_8cpp_source.html":[4,0,1,2,1,5]
+"ranged__weapon__script_8cpp.html":[4,0,1,2,1,5]
 };
