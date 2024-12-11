@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['python_20api_20reference_577',['Python API Reference',['../python_bindings.html',1,'']]]
+  ['game_20engine_20python_20bindings_579',['Game Engine Python Bindings',['../index.html',1,'']]]
 ];

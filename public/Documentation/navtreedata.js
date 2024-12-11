@@ -25,6 +25,47 @@
 var NAVTREE =
 [
   [ "CSPC411 - Building Game Engines Final Project", "index.html", [
+    [ "Game Engine Python Bindings", "index.html", [
+      [ "Introduction", "index.html#intro_sec", null ],
+      [ "Setup and Installation", "index.html#setup_sec", [
+        [ "Prerequisites", "index.html#prereq_subsec", null ],
+        [ "Ubuntu/Debian Installation", "index.html#install_ubuntu", null ],
+        [ "macOS Installation", "index.html#install_mac", null ]
+      ] ],
+      [ "Architecture", "index.html#arch_sec", [
+        [ "Layer Structure", "index.html#arch_layers", null ]
+      ] ],
+      [ "Usage Examples", "index.html#usage_sec", [
+        [ "Basic Game Setup", "index.html#basic_example", null ],
+        [ "Custom Component Example", "index.html#custom_component", null ],
+        [ "Scene Management", "index.html#scene_example", null ]
+      ] ],
+      [ "Performance Considerations", "index.html#perform_sec", [
+        [ "Object Lifetime", "index.html#perf_obj", null ],
+        [ "Data Transfer", "index.html#perf_data", null ],
+        [ "Threading", "index.html#perf_thread", null ]
+      ] ],
+      [ "Extension Guide", "index.html#extend_sec", [
+        [ "Adding Components", "index.html#extend_comp", null ],
+        [ "Custom Resources", "index.html#extend_resource", null ]
+      ] ],
+      [ "Best Practices", "index.html#best_sec", [
+        [ "Code Organization", "index.html#best_code", null ],
+        [ "Error Handling", "index.html#best_error", null ],
+        [ "Documentation", "index.html#best_doc", null ]
+      ] ],
+      [ "Future Development", "index.html#future_sec", [
+        [ "Planned Features", "index.html#future_features", null ],
+        [ "Optimization Plans", "index.html#future_opt", null ]
+      ] ],
+      [ "Contributing", "index.html#contrib_sec", [
+        [ "Contribution Guidelines", "index.html#contrib_guide", null ]
+      ] ],
+      [ "References", "index.html#ref_sec", [
+        [ "Documentation", "index.html#ref_docs", null ],
+        [ "Design Patterns", "index.html#ref_design", null ]
+      ] ]
+    ] ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -58,7 +99,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "animation_8cpp.html",
-"classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298"
+"classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298",
+"structGameApplication.html#aed359d20fc806e5c79f29e0a94b3e897"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
