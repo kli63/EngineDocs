@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Table Engine</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
-  <body style="cursor: url('assets/table_medium.png'), auto">
+  <body
+    style="
+      cursor: url('assets/table_medium.png'), auto;
+      background-image: url('assets/background2.jpg');
+      background-size: cover; /* Makes the image cover the entire background */
+      background-position: center; /* Centers the image */
+      background-attachment: fixed; /* Makes the background stay fixed when scrolling */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+    "
+  >
     <header
       style="
         display: flex;
@@ -54,8 +63,76 @@
       />
     </header>
 
+    <section id="demos">
+      <h2
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: 2em;
+        "
+      >
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+        Demo
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+        <img
+          src="assets/table5.png"
+          alt="Table Illustration"
+          style="width: 50px; height: auto"
+        />
+      </h2>
+      <div
+        class="video-container"
+        style="display: flex; justify-content: center"
+      >
+        <!-- Embed video 1 -->
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/vfPsKcU1iAk?si=SjjdO3KMxQLz2uSv"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
     <section id="documentation">
-      <h2 style="display: flex; align-items: center; gap: 10px">
+      <h2
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: 2em;
+        "
+      >
         <img
           src="assets/table2.png"
           alt="Table Illustration"
@@ -89,23 +166,38 @@
           style="width: 50px; height: auto"
         />
       </h2>
-      <p>
+      <p style="text-align: center; font-size: 1.2em; margin: 20px 0">
         Below is an embedded view of the project's documentation. If you prefer
         to open it in a new tab,
-        <a href="public/Documentation/index.html" target="_blank">click here</a
+        <a
+          href="public/Documentation/index.html"
+          target="_blank"
+          style="color: #007bff; text-decoration: none"
+          >click here</a
         >.
       </p>
 
       <!-- Embedded documentation -->
-      <iframe
-        src="public/Documentation/index.html"
-        width="100%"
-        height="600px"
-      ></iframe>
+      <div style="display: flex; justify-content: center">
+        <iframe
+          src="public/Documentation/index.html"
+          width="80%"
+          height="600px"
+          style="border-radius: 15px; border: 1px solid #ccc"
+        ></iframe>
+      </div>
     </section>
 
     <section id="class-hierarchy">
-      <h2 style="display: flex; align-items: center; gap: 10px">
+      <h2
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: 2em;
+        "
+      >
         <img
           src="assets/table3.png"
           alt="Table Illustration"
@@ -138,20 +230,31 @@
           style="width: 50px; height: auto"
         />
       </h2>
-      <p>
-        This section includes a visual representation of the class hierarchy
-        used in our game engine.
-      </p>
-      <!-- Embedded image of the class hierarchy graph -->
-      <img
-        src="assets/architecture.png"
-        alt="Class Hierarchy Graph"
-        style="width: 100%; max-width: 1000px; height: auto"
-      />
+      <div style="text-align: center">
+        <!-- Embedded image of the class hierarchy graph -->
+        <img
+          src="assets/architecture.png"
+          alt="Class Hierarchy Graph"
+          style="
+            width: 40%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 15px;
+          "
+        />
+      </div>
     </section>
 
     <section id="post-mortem">
-      <h2 style="display: flex; align-items: center; gap: 10px">
+      <h2
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: 2em;
+        "
+      >
         <img
           src="assets/table4.png"
           alt="Table Illustration"
@@ -184,76 +287,48 @@
           style="width: 50px; height: auto"
         />
       </h2>
-      <p>
-        Insights and challenges encountered during the project development,
-        along with key learnings.
-      </p>
-      <ul>
-        <li>Learning Outcome 1</li>
-        <li>Challenge Faced</li>
-        <li>How we overcame the challenges</li>
-      </ul>
-    </section>
-
-    <section id="demos">
-      <h2 style="display: flex; align-items: center; gap: 10px">
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-        Demos
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-        <img
-          src="assets/table5.png"
-          alt="Table Illustration"
-          style="width: 50px; height: auto"
-        />
-      </h2>
-      <p>
-        Check out the various demonstrations of our project in action below.
-      </p>
-      <div class="video-container">
-        <!-- Embed video 1 -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_1"
-          width="560"
-          height="315"
-          allowfullscreen
-        ></iframe>
-        <!-- Embed video 2 -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_2"
-          width="560"
-          height="315"
-          allowfullscreen
-        ></iframe>
-        <!-- Embed video 3 -->
-        <iframe
-          src="https://www.youtube.com/embed/VIDEO_ID_3"
-          width="560"
-          height="315"
-          allowfullscreen
-        ></iframe>
+      <div style="display: flex; justify-content: center; padding: 20px">
+        <div
+          style="
+            text-align: left;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          "
+        >
+          <p style="line-height: 1.6; font-size: 1.1em">
+            The final project was both challenging and very rewarding. We spent
+            the first half of the project setting up pybind and developing a
+            test dungeon crawler game, which, looking back, was a great way to
+            ease into the complexities of C++ without diving straight into
+            engine code. We had a lot of fun tinkering with various components,
+            creating several different states for animation, and coding custom
+            camera movement. After learning good C++ coding fundamentals, we
+            decided to code our frontend GUI with Python’s tkinter library. Our
+            goal was to create tiling software, equipped with a grid canvas and
+            sprite map editor, and we ended up accomplishing this goal
+            completely. In terms of difficulty, the frontend GUI was a pain to
+            debug because we underestimated how much effort it would take to fix
+            minute bugs. For example, small nuances like saving data states
+            across different button presses or throwing a warning if multiple
+            game objects had the same name were necessary for a seamless UI
+            experience but ended up taking a lot of time to fix. At the same
+            time, we created a backend pipeline to save GUI data from the tile
+            editor to render game objects in-game. We definitely could have done
+            better preplanning: we ended up modifying our exact
+            structure/approach for converting JSON data many hours into the
+            backend process, but we were able to get past that obstacle once we
+            stepped back to analyze our approach. Overall, our team had really
+            good teamwork, brainstorming ideas at CEID and drawing big-picture
+            concepts and implementations on the whiteboard. If you look past the
+            sleepless hours as we approached presentation day, it was a truly
+            amazing experience. Seeing the GUI work in real-time and making a
+            video presentation to highlight the engine’s strengths made it one
+            of our top 3 projects at Yale!
+          </p>
+        </div>
       </div>
     </section>
   </body>
