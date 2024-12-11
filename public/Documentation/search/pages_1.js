@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['python_20api_20guide_2726',['Python API Guide',['../python_api_guide.html',1,'']]],
-  ['python_20api_20reference_2727',['Python API Reference',['../python_bindings.html',1,'']]]
+  ['python_20api_20reference_583',['Python API Reference',['../python_api.html',1,'']]]
 ];

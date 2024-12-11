@@ -66,6 +66,7 @@ var NAVTREE =
         [ "Design Patterns", "index.html#ref_design", null ]
       ] ]
     ] ],
+    [ "Python API Reference", "python_api.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ],
       [ "Package Functions", "namespacemembers.html", [
@@ -100,7 +101,7 @@ var NAVTREEINDEX =
 [
 "animation_8cpp.html",
 "classSceneNode.html#af932d0dd884c95d0f70fbd943a08f298",
-"structGameApplication.html#aed359d20fc806e5c79f29e0a94b3e897"
+"structGameApplication.html#abf402dc58e8c843c66849f88897c36ed"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
