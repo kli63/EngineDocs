@@ -24,6 +24,9 @@ var dir_1dfe4a86cee15d5d6902f8c724dcf913 =
     [ "gameobjectfactory.h", "gameobjectfactory_8h.html", [
       [ "GameObjectFactory", "classGameObjectFactory.html", "classGameObjectFactory" ]
     ] ],
+    [ "health.h", "health_8h.html", [
+      [ "Health", "classHealth.html", "classHealth" ]
+    ] ],
     [ "input.h", "input_8h.html", [
       [ "Input", "classInput.html", "classInput" ]
     ] ],

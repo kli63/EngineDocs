@@ -8,6 +8,8 @@ var annotated_dup =
     [ "GameApplication", "structGameApplication.html", "structGameApplication" ],
     [ "GameObject", "classGameObject.html", "classGameObject" ],
     [ "GameObjectFactory", "classGameObjectFactory.html", "classGameObjectFactory" ],
+    [ "health", "classhealth.html", null ],
+    [ "Health", "classHealth.html", "classHealth" ],
     [ "Input", "classInput.html", "classInput" ],
     [ "PlayerInputScript", "classPlayerInputScript.html", "classPlayerInputScript" ],
     [ "ProjectileScript", "classProjectileScript.html", "classProjectileScript" ],

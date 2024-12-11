@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['playerinputscript_237',['PlayerInputScript',['../classPlayerInputScript.html',1,'']]],
-  ['projectilescript_238',['ProjectileScript',['../classProjectileScript.html',1,'']]]
+  ['input_245',['Input',['../classInput.html',1,'']]]
 ];

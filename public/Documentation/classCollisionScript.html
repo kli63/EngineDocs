@@ -90,6 +90,9 @@ $(document).ready(function(){initNavTree('classCollisionScript.html',''); initRe
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> to manage collisions between game objects.  
+ <a href="classCollisionScript.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="collision__script_8h_source.html">collision_script.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for CollisionScript:</div>
@@ -98,7 +101,7 @@ $(document).ready(function(){initNavTree('classCollisionScript.html',''); initRe
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCollisionScript__inherit__graph.png" border="0" usemap="#aCollisionScript_inherit__map" alt="Inheritance graph"/></div>
 <map name="aCollisionScript_inherit__map" id="aCollisionScript_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,263,145,369"/>
+<area shape="rect" title="Script to manage collisions between game objects." alt="" coords="5,263,145,369"/>
 <area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="20,5,131,215"/>
 </map>
 </div>
@@ -109,7 +112,7 @@ $(document).ready(function(){initNavTree('classCollisionScript.html',''); initRe
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCollisionScript__coll__graph.png" border="0" usemap="#aCollisionScript_coll__map" alt="Collaboration graph"/></div>
 <map name="aCollisionScript_coll__map" id="aCollisionScript_coll__map">
-<area shape="rect" title=" " alt="" coords="5,668,145,775"/>
+<area shape="rect" title="Script to manage collisions between game objects." alt="" coords="5,668,145,775"/>
 <area shape="rect" href="classScript.html" title="Base class for scripting custom behaviors in game objects." alt="" coords="20,402,131,597"/>
 <area shape="rect" href="classGameObject.html" title="Core class representing an entity in the game world." alt="" coords="109,5,255,317"/>
 <area shape="rect" href="classSceneNode.html" title="Represents a node in the scene graph, encapsulating a game object and its hierarchy." alt="" coords="199,380,354,619"/>
@@ -119,12 +122,13 @@ $(document).ready(function(){initNavTree('classCollisionScript.html',''); initRe
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a33f44ea67b6979ba73399558888383ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollisionScript.html#a33f44ea67b6979ba73399558888383ad">CollisionScript</a> ()</td></tr>
+<tr class="memdesc:a33f44ea67b6979ba73399558888383ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new Collision <a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> object.  <a href="classCollisionScript.html#a33f44ea67b6979ba73399558888383ad">More...</a><br /></td></tr>
 <tr class="separator:a33f44ea67b6979ba73399558888383ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a355e76ff76f021d2a97e655fc4b635e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0">update</a> () override</td></tr>
-<tr class="memdesc:a355e76ff76f021d2a97e655fc4b635e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual method for updating the script's state. Should be overridden by derived classes.  <a href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0">More...</a><br /></td></tr>
+<tr class="memdesc:a355e76ff76f021d2a97e655fc4b635e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the collision status of the associated game object.  <a href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0">More...</a><br /></td></tr>
 <tr class="separator:a355e76ff76f021d2a97e655fc4b635e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d296cc9fe63d927f5935b11ff2e6bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCollisionScript.html#a4d296cc9fe63d927f5935b11ff2e6bbe">render</a> () override</td></tr>
-<tr class="memdesc:a4d296cc9fe63d927f5935b11ff2e6bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual method for rendering operations. Should be overridden by derived classes.  <a href="classCollisionScript.html#a4d296cc9fe63d927f5935b11ff2e6bbe">More...</a><br /></td></tr>
+<tr class="memdesc:a4d296cc9fe63d927f5935b11ff2e6bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders collision-related visuals if necessary.  <a href="classCollisionScript.html#a4d296cc9fe63d927f5935b11ff2e6bbe">More...</a><br /></td></tr>
 <tr class="separator:a4d296cc9fe63d927f5935b11ff2e6bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classScript"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classScript')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classScript.html">Script</a></td></tr>
 <tr class="memitem:a10975b78b03162488c522f095fd7707f inherit pub_methods_classScript"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classScript.html#a10975b78b03162488c522f095fd7707f">Script</a> ()</td></tr>
@@ -165,8 +169,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ad68fb96168b3373686f4571d625fbe60 inherit pub_attribs_classScript"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="collision__script_8h_source.html#l00005">5</a> of file <a class="el" href="collision__script_8h_source.html">collision_script.h</a>.</p>
+<div class="textblock"><p><a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> to manage collisions between game objects. </p>
+<p>Inherits from the <a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> class and utilizes the <a class="el" href="classCollide.html" title="Component to handle collisions between game objects.">Collide</a> component to handle collisions. </p>
+
+<p class="definition">Definition at line <a class="el" href="collision__script_8h_source.html#l00019">19</a> of file <a class="el" href="collision__script_8h_source.html">collision_script.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a33f44ea67b6979ba73399558888383ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33f44ea67b6979ba73399558888383ad">&#9670;&nbsp;</a></span>CollisionScript()</h2>
@@ -182,6 +188,9 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs a new Collision <a class="el" href="classScript.html" title="Base class for scripting custom behaviors in game objects.">Script</a> object. </p>
+<p>Initializes the collision flag to false. </p>
 
 <p class="definition">Definition at line <a class="el" href="collision__script_8cpp_source.html#l00009">9</a> of file <a class="el" href="collision__script_8cpp_source.html">collision_script.cpp</a>.</p>
 
@@ -211,7 +220,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Virtual method for rendering operations. Should be overridden by derived classes. </p>
+<p>Renders collision-related visuals if necessary. </p>
+<p>This method is called once per frame after <a class="el" href="classCollisionScript.html#a355e76ff76f021d2a97e655fc4b635e0" title="Updates the collision status of the associated game object.">update()</a>, if there is a need to render visual cues related to collision (like debug outlines). </p>
 
 <p>Reimplemented from <a class="el" href="classScript.html#aa7d007329ec6b06acdefbd22cd2229e4">Script</a>.</p>
 
@@ -242,7 +252,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Virtual method for updating the script's state. Should be overridden by derived classes. </p>
+<p>Updates the collision status of the associated game object. </p>
+<p>This method is called once per frame and checks for any collisions that involve the game object this script is attached to. </p>
 
 <p>Reimplemented from <a class="el" href="classScript.html#afe9dc9a9524d9dfa6229d9a2485e85fb">Script</a>.</p>
 
@@ -270,8 +281,9 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Flag to track collision state </p>
 
-<p class="definition">Definition at line <a class="el" href="collision__script_8h_source.html#l00008">8</a> of file <a class="el" href="collision__script_8h_source.html">collision_script.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="collision__script_8h_source.html#l00021">21</a> of file <a class="el" href="collision__script_8h_source.html">collision_script.h</a>.</p>
 
 </div>
 </div>

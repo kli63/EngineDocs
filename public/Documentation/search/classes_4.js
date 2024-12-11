@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['input_236',['Input',['../classInput.html',1,'']]]
+  ['health_243',['health',['../classhealth.html',1,'']]],
+  ['health_244',['Health',['../classHealth.html',1,'']]]
 ];
